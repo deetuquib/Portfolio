@@ -1,0 +1,20 @@
+Video by Naim Benjelloun from Pexels
+https://www.pexels.com/@naimbic
+
+Background Image:
+https://unsplash.com/photos/Ef6iL87-vOA
+
+Blink Code source:
+https://stackoverflow.com/questions/13955163/imitating-a-blink-tag-with-css3-animations
+
+Flex Code source:
+https://stackoverflow.com/questions/19026884/flexbox-center-horizontally-and-vertically
+
+Center position Code source:
+https://stackoverflow.com/questions/9862167/positioning-div-element-at-center-of-screen
+
+Elbows Touching Img:
+https://unsplash.com/photos/GsuoClhxMDE
+
+Icons:
+https://www.flaticon.com/authors/freepik

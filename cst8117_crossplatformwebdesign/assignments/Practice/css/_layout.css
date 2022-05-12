@@ -1,0 +1,82 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+h1.top-h1 {
+  margin: 10% 0% 2.5% 0%;
+}
+
+img {
+  display: block;
+  margin: 2.5% auto 2.5% auto;
+  width: 45%;
+}
+
+p.description {
+  margin: 5% 15% 5% 15%;
+  text-align: justify;
+  color: grey;
+}
+
+div.button-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+div.button-div button {
+  margin: 2.5% auto 2.5% auto;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+div.button-div button.enter-btn {
+  width: 500px;
+  height: 50px;
+}
+div.button-div button.get-zodiac-btn {
+  width: 500px;
+  height: 50px;
+}
+div.input-title {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 2.5% auto 2.5% 10%;
+}
+
+h2 {
+  font-size: 13px;
+  text-align: center;
+  font-weight: bolder;
+}
+h2.mid-h2 {
+  margin: 10% 0% 2.5% 0%;
+}
+
+input {
+  font-size: 30px;
+  text-align: center;
+}
+input.short-input {
+  width: 500px;
+  height: 50px;
+  margin: 0.5% auto 2.5% 10%;
+}
+
+footer div {
+  text-align: center;
+  font-size: 12px;
+}

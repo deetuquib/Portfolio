@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Diana Jean C Tuquib">
+        <meta name="email" content="tuqu0002@algonquinlive.com">
+
+        <style>
+
+            *, *::before, **::after {
+                box-sizing: border-box;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: normal;
+            }
+
+            body {
+                padding: 0;
+                margin: 0%;
+                background-color: white;
+            }
+
+            .calculatorcontainer {
+                display: grid;
+                justify-content: center;
+                align-content: center;
+                min-height: 640px;
+                grid-template-columns: repeat(4, 100px);
+                grid-template-rows: minmax(120px, auto) repeat(4, 100px);
+                
+            }
+
+            .calculatorcontainer > button {
+                font-size: 2rem;
+                border: 1px solid white;
+                outline: none;
+                background-color: rgba(254, 250, 224, .75);
+            }
+
+            .calculatorcontainer > button:hover {
+                background-color: rgba(255, 255, 255, .9);
+            }
+
+            .output {
+                grid-column: 1 / -1;
+                background-color: whitesmoke;
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-around;
+                flex-direction: column;
+                padding: 10px;
+                word-wrap: break-word;
+                word-break: break-all;
+            }
+
+            .output .previous-operation {
+                color: #ddbea9;
+                font-size: 24px;
+            }
+
+            .output .current-operation {
+                color: #BC6C25;
+                font-size: 30px;
+            }
+
+        </style>
+
+        <title>A Very Simple Calculator</title>
+    </head>
+
+
+    <body>
+        <div class="calculatorcontainer">
+
+            <div class="output">
+                <div data-previous-operation class="previous-operation"></div>
+                <div data-current-operation class="current-operation"></div>
+            </div>
+
+            <button data-number>7</button> <button data-number>8</button> <button data-number>9</button> <button data-operation>+</button>
+            <button data-number>4</button> <button data-number>5</button> <button data-number>6</button> <button data-operation>-</button>
+            <button data-number>1</button> <button data-number>2</button> <button data-number>3</button> <button data-operation>x</button>
+            <button data-number>0</button> <button data-all-clear>C</button> <button data-equals>=</button> <button data-operation>÷</button>
+
+        </div>
+
+        <script src="calculator.js"></script>
+    </body>
+
+</html>
+

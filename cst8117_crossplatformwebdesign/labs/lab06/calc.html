@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link href="styles.css" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            font-family: Gotham Rounded, sans-serif;
+            font-weight: normal;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            background: linear-gradient(to right, #00AAFF, #00FF6C);
+        }
+
+        .calculator {
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            min-height: 100vh;
+            grid-template-columns: repeat(4, 100px);
+            grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+        }
+
+        .calculator > button {
+            cursor: pointer;
+            font-size: 2rem;
+            border: 1px solid white;
+            outline: none;
+            background-color: rgba(255, 255, 255, .75);
+        }
+
+        .calculator > button:hover {
+            background-color: rgba(255, 255, 255, .9);
+        }
+
+        .display {
+            grid-column: 1 / -1;
+            background-color: rgba(0, 0, 0, .75);
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            flex-direction: column;
+            padding: 10px;
+            word-wrap: break-word;
+            word-break: break-all;
+        }
+
+        .display .operation {
+            color: rgba(255, 255, 255, .75);
+            font-size: 1.5rem;
+        }
+
+        .display .result {
+            color: white;
+            font-size: 2.5rem;
+        }
+    </style>
+</head>
+<body>
+  <div class="calculator">
+    <div class="display">
+      <div data-operation class="operation"></div>
+      <div data-result class="result"></div>
+    </div>
+            <button data-numbers>7</button> <button data-numbers>8</button> <button data-numbers>9</button> <button data-operands>+</button>
+            <button data-numbers>4</button> <button data-numbers>5</button> <button data-numbers>6</button> <button data-operands>-</button>
+            <button data-numbers>1</button> <button data-numbers>2</button> <button data-numbers>3</button> <button data-operands>x</button>
+            <button data-numbers>0</button> <button data-clearData>C</button> <button data-equalSign>=</button> <button data-operands>÷</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <title>Web Programming I - FINALS</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./css/index.css" />
+    </head>
+
+    <body>
+        <header>Web Programming I - Practical Test</header>
+        <p class="web-description">This website lets the user order fresh fruits from The F(u)nc-ky Fruits Basket. </p>
+        <section></section>
+
+        <div class="grid-container order-form" name="orderForm" id="orderForm">
+            <div class="grid-title">Products</div>
+            <div class="grid-title">Cost</div>
+            <div class="grid-title">Quantity</div>
+            <div class="grid-title">Add to Cart</div>
+            <div class="grid-title">Subtotal</div>
+
+            <div class="grid-item cart-item" id="banana"></div>
+            <div class="grid-item cart-cost" id="bananaCost"></div>
+            <div class="grid-item cart-quantity" id="bananaQuantity"></div>
+            <div class="grid-item plusminus">
+                <img src="images/plus.png" class="plusFruit mathOperator" id="plusBanana">
+                <img src="images/minus.png" class="minusFruit mathOperator" id="minusBanana"></div>
+            <div class="grid-item cart-subtotal" id="bananaSubtotal"></div>
+
+            <div class="grid-item cart-item" id="apple"></div>
+            <div class="grid-item cart-cost" id="appleCost"></div>
+            <div class="grid-item cart-quantity" id="appleQuantity"></div>
+            <div class="grid-item plusminus">
+                <img src="images/plus.png" class="plusFruit mathOperator" id="plusApple">
+                <img src="images/minus.png" class="minusFruit mathOperator" id="minusApple"></div>
+            <div class="grid-item cart-subtotal" id="appleSubtotal"></div>
+
+            <div class="grid-item cart-item" id="watermelon"></div>
+            <div class="grid-item cart-cost" id="watermelonCost"></div>
+            <div class="grid-item cart-quantity" id="watermelonQuantity"></div>
+            <div class="grid-item plusminus">
+                <img src="images/plus.png" class="plusFruit mathOperator" id="plusWatermelon">
+                <img src="images/minus.png" class="minusFruit mathOperator" id="minusWatermelon"></div>
+            <div class="grid-item cart-subtotal" id="watermelonSubtotal"></div>
+
+            <div class="grid-item cart-item" id="grapes"></div>
+            <div class="grid-item cart-cost" id="grapesCost"></div>
+            <div class="grid-item cart-quantity" id="grapesQuantity"></div>
+            <div class="grid-item plusminus">
+                <img src="images/plus.png" class="plusFruit mathOperator" id="plusGrapes">
+                <img src="images/minus.png" class="minusFruit mathOperator" id="minusGrapes"></div>
+            <div class="grid-item cart-subtotal" id="grapesSubtotal"></div>
+
+            <div class="grid-item" id="space"></div>
+            <div class="grid-item">TOTAL:</div>
+            <div class="grid-item" id="total"></div>
+            </div>
+
+        <form id="profile" name="profile">
+            <div class="line">
+                <label for="name">Name:</label><br>
+                <input
+                    id="name"
+                    name="name"
+                    class="input-long"
+                    max="20"
+                    min="5"
+                    placeholder="Jane Doe"
+                    type="text"
+                />
+                <div class="alert" id="nameError"></div>
+            </div>
+
+            <div class="line">
+                <label for="address1">Address:</label><br>
+                <input
+                    class="input-long"
+                    type="text"
+                    placeholder="Address"
+                    id="address1"
+                    name="address1"
+                    min="5"
+                    max="20"
+                />
+                <div class="alert" id="address1Error"></div>
+            </div>
+
+            <div class="line">
+                <label for="province">Province:</label><br>
+                <input list="provinces" name="province" id="province" class="input-long" placeholder="Enter Province">
+
+                <datalist id="provinces">
+                    <option value=" "></option>
+                    <option value="Alberta"></option>
+                    <option value="British Columbia"></option>
+                    <option value="Manitoba"></option>
+                    <option value="New Brunswick"></option>
+                    <option value="Newfoundland and Labrador"></option>
+                    <option value="Nova Scotia"></option>
+                    <option value="Ontario"></option>
+                    <option value="Prince Edward Island"></option>
+                    <option value="Quebec"></option>
+                    <option value="Saskatchewan"></option>
+                    <option value="Northwest Territories"></option>
+                    <option value="Nunavut"></option>
+                    <option value="Yukon"></option>
+                </datalist>
+
+                <div class="alert" id="provinceError"></div>
+            </div>
+
+            <div class="line">
+                <label for="phoneNumber">Phone Number:</label><br>
+                <input
+                    id="phoneNumber"
+                    class="input-long"
+                    type="number"
+                    placeholder="6130000000"
+                    min="1111111111"
+                    max="9999999999"
+                />
+                <div class="alert" id="phoneNumberError"></div>
+                <label for="preferredDeliveryDate"
+                    >Preferred Delivery Date:</label
+                >
+                <div><input
+                    id="preferredDeliveryDate"
+                    class="input-long"
+                    type="date"
+                    min="2021-12-26"
+                /></div>
+                <div class="alert" id="preferredDeliveryDateError" ></div>
+            </div>
+
+            <div class="line">
+                <fieldset id="contactMode">
+                    <legend>Contact Method</legend>
+                    <p>
+                        <input
+                            type="radio"
+                            class="btn"
+                            name="contactMode"
+                            id="contactMode1"
+                            value="call"
+                        />
+                        <label for="contactMode1" class="contact-label">Call</label>
+                    </p>
+                    <p>
+                        <input
+                            type="radio"
+                            class="btn"
+                            name="contactMode"
+                            id="contactMode2"
+                            value="text"
+                        />
+                        <label for="contactMode2">Text</label>
+                    </p>
+                    <p>
+                        <input
+                            type="radio"
+                            class="btn"
+                            name="contactMode"
+                            id="contactMode3"
+                            value="email"
+                        />
+                        <label for="contactMode3">E-mail</label>
+                    </p>
+                </fieldset>
+                <div class="alert" id="contactModeError"></div>
+            </div>
+
+            <div class="line">
+                <input
+                    id="subscribeMailingList"
+                    type="checkbox"
+                    class="checkbox"
+                />
+                <label for="subscribeMailingList"
+                    >Please include me in your mailing list.</label
+                >
+            </div>
+
+            <div class="line">
+                <label for ="deliveryInstructions">Delivery Instructions:</label><br>
+                <textarea
+                    id="deliveryInstructions"
+                    class="input-big"
+                    cols="30"
+                    rows="10"
+                    placeholder="Please drop off at . . ."
+                ></textarea>
+            </div>
+
+            <div class="line">
+                <input id="btnSubmit" type="submit" class="btn-submit" />
+                <input id="btnReset" type="reset" class="btn-reset" />
+            </div>
+        </form>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <div id="testimonial"></div>
+        <!-- <script src="./scripts/validate.js"></script> -->
+        <script src="./scripts/events.js"></script>
+        <script src="./scripts/validate.js"></script>
+        <script src="./scripts/index.js"></script>
+        <footer>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></footer>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+<style>
+
+    * {
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+        text-indent: 0px;
+    }
+
+    h2 {
+        font-size: 18px;
+        text-align: center;
+        text-indent: 0px;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    section {
+        font-size: 18px;
+        text-indent: 50px;
+        text-align: justify;
+    }
+
+    .entireDoc {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    .footnotes {
+        font-size: 8px;
+        text-indent: 25px;
+        color: #6C757D;
+    }
+
+
+
+</style>

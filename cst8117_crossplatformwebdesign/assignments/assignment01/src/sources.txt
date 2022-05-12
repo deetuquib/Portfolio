@@ -1,0 +1,76 @@
+SOURCES:
+
+    IMAGES:
+
+        paw print logo:
+            <div>Icons made by <a href="https://www.flaticon.com/authors/creatype" title="Creatype">Creatype</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+        golden retriever w yellow flowers
+            https://unsplash.com/photos/DsGeUBaJPwc
+            Hendo Wang
+
+        border collie with food
+            Ayla Verschueren
+            https://unsplash.com/photos/QIbjKOsmIhQ
+
+        boxer on white bg
+            Lucie Helesicova
+            https://unsplash.com/photos/F987HmlxnAw
+
+        dog on peach bg
+            Victor Grabarczyk
+            https://unsplash.com/photos/N04FIfHhv_k
+
+        bulldog on blue bg
+            Karsten Winegeart
+            https://unsplash.com/photos/tIWBJN8t7zE
+
+        bulldog banana
+            Karsten Winegeart
+            https://unsplash.com/photos/nxFp7SVQuvY
+
+
+        bruno sleeping
+            Bruno Emmanuelle
+            https://unsplash.com/photos/azsk_6IMT3I
+
+
+            https://www.sophiegamand.com/flowerpower
+
+    VIDEOS: 
+
+    adopted dogs
+        Yaroslav Shuraev
+        Video by Yaroslav Shuraev from Pexels
+        https://www.pexels.com/video/person-typing-on-keyboard-8498470/
+
+
+ICONS:
+    <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+
+
+
+
+
+
+
+
+
+
+Inspirations:
+
+Shape: https://breuvagesshape.com/
+Julia Johnson: https://www.juliajohnson.com/
+Scarscare: https://www.scarscare.ca/
+
+
+Important points:
+    1024x5768
+    text font compatible across all OS
+    color scheme
+
+
+
+
+

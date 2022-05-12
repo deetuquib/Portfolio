@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Diana Jean C Tuquib">
+        <meta name="email" content="tuqu0002@algonquinlive.com">
+        <!-- #1 Title: Fluffy Friends of Daycare: done -->
+        <title> Fluffy Friends Cat Daycare </title>
+
+        <style>
+
+            *{
+                margin: 0;
+                vertical-align: middle;
+            }
+
+            /* #6: nav, foot, nav a formatting: done */
+            nav, footer, nav a{
+                background-color: #133854;
+                color:white;
+                font-family: Arial, Helvetica, sans-serif;
+                /* #8 Set the font-size and height properties and add vertical-align: done */
+                vertical-align:middle;
+                text-align: center;
+                font-size: 16pt;
+                height: 20pt;
+            }
+
+            /* #7: Address is aligned on the right side of the screen: done */
+            address{
+                background-color: white;
+                color: black;
+                text-align: right;
+            }
+
+            /* #10: Add a selectior section img, value of 300px. Play with value of height property: done */
+            section img{
+                height: 200px;
+            }
+
+            .catporchImg{
+                align-items: left;
+            }
+
+            section{
+                /* #10: Set font-size to 16: done */
+                font-size: 16pt;
+                margin: 10px 0px;
+            }
+
+            /* #Part V: modify footer and padding: done */
+            footer, nav{
+                font-size: 16px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+            }
+
+            a:visited{
+                color:pink;
+            }
+
+            .wrapper{
+                max-width: 100%;
+                padding-right: 10%;
+                padding-left: 10%;
+            }
+
+        </style>
+
+    </head>
+
+    <!-- #2: Identify the header, main content, two main sections, and footer: done -->
+    <body>
+        <div class="wrapper">
+
+            <!-- #2: Inside the <nav> element place the word 'home' as a hyperlink: done -->
+            <nav> <a href="index.html" id="homeH"> Home </a> </nav>
+
+            <header>
+                <!-- #5: Add the 300px square fluffylogo,the image of the company name, and the alt attribute: done -->
+                <table>
+                    <tr>
+                        <td id="fluff">
+                            <img src="./images/fluffylogo(300X300).png" alt="cat silhouette">
+                        </td>
+                        <td id="companyName">
+                            <img src="./images/companyname.jpg" alt="cat company name">
+                        </td>
+                    </tr>
+                </table>
+
+                <nav>
+                    <h3> 123 Fluffy St. Ottawa, Ontario. (613) 123-CATS </h3>
+                </nav>
+            </header>
+
+
+            <main id="catArticle">
+            <article>
+
+                <section>
+                    <!-- #3: Section headings with <h2>: done -->
+                    <h2> Let Your Cat Annoy Someone Else </h2>
+                    <!-- #9: Create a table under the header: done -->
+                    <table>
+                        <tr>
+                            <td>
+                                <!-- #3: Surround all paragraphs with <p> tag: done -->
+                                <p id="catFluff" class="catpar">Fluffy Friends Cat Daycare offers premium cat care services during normal
+                                business hours (weekdays 9AM to 5PM). If your cat is lonely at home while you are working at the office.
+                                If your cat is annoying you while you try to work from home. Dropping off your cat at Fluffy Friends is
+                                a great solution! Our caretakers are experienced cat owners who will feed, pet, and play with your cat
+                                throughout the day. Your cat will develop lifelong friendships with the other cats at our daycare.
+                                We also have a total of 42 cat trees in our tiny location! Great places for your cat to sleep and scratch
+                                their day away. </p>
+                            </td>
+                            <td>
+                                <img src="./images/sleepingcats.jpg" alt="sleeping cats">
+                            </td>
+                        </tr>
+                    </table>
+                    </section>
+
+                    <section>
+                    <h2> New! Cat Porch </h2>
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="./images/catporch.jpg" alt="cat porch" id="catPorchImg">
+                            </td>
+                            <td>
+                                <p id="catPorch"> Our daycare center now features a cat porch so that your cat can enjoy fresh air while we
+                                ensure their safety. Our reinforced safety screens keep your cat safe from outdoor dangers while allowing
+                                your cat to watch and dream about catching the squirrels and birds that visit daily. Your cat will love
+                                our new cat porch. </p>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+            </main>
+
+            <footer>
+                <nav>
+                    <h3> Fluffy Friends Cat Daycare </h3>
+                </nav>
+                <!-- #3: Add <address> element: done -->
+                <address>
+                    123 Fluffy Street <br>
+                    Ottawa, Ontario <br>
+                    (613) 123-CATS <br>
+                    <!-- #Part V: Make email address a mailto hyperlink: done -->
+                    <a href="mailto:fluffyfriends@catdaycare.ca"> fluffyfriends@catdaycare.ca </a> <br>
+                    </br></br>
+                </address>
+            </footer>
+
+        </div>
+    </body>
+
+
+</html>
+
+<!-- Code source/s:
+    https://css-tricks.com/best-way-implement-wrapper-css/
+    https://www.youtube.com/watch?v=KFKScNHa-8M&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe -->
+
+<!-- Landing page is properly formatted: done
+    Semantic layout: done
+    Home link: done
+    No inline CSS: done
+    Tables well formed: done
+    Images reasonably sized: done
+    Footer text 14-18px: done
+    Footer text is aligned to the right: done
+    Email is properly linked: done
+    All files accounted for: done -->

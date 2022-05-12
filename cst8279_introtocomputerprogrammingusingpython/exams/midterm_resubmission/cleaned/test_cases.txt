@@ -1,0 +1,21 @@
+weight_assignments = 0.4
+weight_midterms = 0.35
+weight_finals = 0.25
+average_assignments = 78
+number_of_tests = 2
+grade_test_1 = 89
+grade_test_2 = 82
+average_finals = 90
+grade_numeric = 83.625
+grade_alpha = A-
+
+weight_assignments = 0.4
+weight_midterms = 0.3
+weight_finals = 0.3
+average_assignments = 78
+number_of_tests = 2
+grade_test_1 = 89
+grade_test_2 = 82
+average_finals = 90
+grade_numeric = 83.85
+grade_alpha = A-

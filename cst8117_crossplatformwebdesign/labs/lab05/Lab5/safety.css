@@ -1,0 +1,53 @@
+<style>
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10px;
+    }
+
+    .bannerDiv {
+        background: #006341;
+        position: relative;
+        padding: 5px;
+    }
+
+    .bannerDiv img {
+        -webkit-filter: grayscale(50%);
+        filter:grayscale(50%) contrast(200%);
+        opacity: 25%;
+        width: 100%;
+        height: 500px;
+        object-fit: none;
+    }
+
+    section {
+        width: 60%;
+        height: max-content;
+        position: relative;
+        left: 20%;
+        font-size: 16px;
+        align-content: center;
+        padding: 5px;
+    }
+
+    section img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .safetyGuidelines {
+        background: #e7e8e8;
+        border: 1px solid #cccccc
+    }
+
+    ul {
+        -webkit-columns: 2;
+        list-style-type: none;
+    }
+
+</style>

@@ -1,0 +1,73 @@
+<style>
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-image: url("media/bg1.jpg");
+    }
+
+    h1 {
+        color: red;
+        
+    }
+
+    /* Animation - start*/
+
+    h1 {
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+
+    /* Animation - end 
+        Code source: */
+
+    .container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 3px solid yellow;
+        padding: 15px;
+    }
+
+
+    img {
+        width: 50%;
+        height: auto;
+    }
+
+    #partygif {
+        float: left;
+        padding-right: 50px;
+    }
+
+    .partyDetail {
+        color: yellow;
+        font-weight: bolder
+        ;
+    }
+
+    .partyInfo {
+        color: #d50000;
+    }
+
+    section {
+        font-size: 14px;
+    }
+
+
+</style>

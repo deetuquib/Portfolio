@@ -1,0 +1,140 @@
+<style>
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav, footer, nav a, footer a {
+        background-color: #133854;
+        color: white;
+        font-size: 18pt;
+    }
+    
+    nav {
+        text-align: center;
+        padding: 10px;
+    }     
+
+    section {
+        font-size: 16pt;
+    }
+
+    section img {
+        height: 200px;
+    }
+    
+    footer {
+        text-align: right;
+        padding: 10px;
+    }
+
+    address {
+        font-style: normal;
+    }
+
+    /* add #coname */
+    /* give position the value of absolute */
+    #coname {
+        position: absolute;
+    }
+
+    /* main sections to be at least 20pt */
+    main section {
+        font-size: 20pt;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* nav and footer elements to be 2pt less than the main text */
+    nav, footer {
+        font-size: 18pt;
+    }
+
+    /* #4 add the following class selector and style rule */
+    /* #4 set the padding */
+    .rightfloater {
+        float: right;
+        padding: 5px 0px 20px 20px;
+    }
+
+    /* #5 repeat the same process for left floating elements */
+    .leftfloater {
+        float: left;
+        padding: 20px 20px 0px 0px;
+    }
+
+    .bottom {
+      overflow: auto;
+    }
+
+    /* Pet diversity plus and BBB plus logos on the left-most part, with the same height and 10px space to the right */
+    footer img {
+        height: 35px;
+        padding-right: 10px;
+        float: left;
+    }
+
+    #topHeader {
+        word-spacing: 100px;
+        text-align: left;
+    }
+
+    Header Img {
+        object-fit: contain;
+    }
+
+    .materialsandtools {
+        float:inline-end;
+        padding: 15px;
+    }
+
+    .materialsandtools section {
+        width: 50%; float: left;
+    }
+
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+
+    table {
+        width: 100%;
+    }
+
+    th {
+        width: 15%;
+    }
+
+    .cells {
+        text-align: center;
+    }
+
+    thead {
+        background-color: #133854;
+        color: white;
+    }
+
+    input {
+        height: 30px;
+        font-size: 20px;
+        vertical-align: middle;
+        padding: 0px;
+    }
+
+    .noborder {
+        width: 50%;
+        border-style: hidden;
+        padding: 0px;
+    }
+
+    button {
+        font-size: 20px;
+        width: 50%;
+    }
+
+    #contactinfo {
+        text-align: center;
+    }
+
+</style>

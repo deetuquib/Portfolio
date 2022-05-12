@@ -1,0 +1,36 @@
+{
+    "storeName": "The F(u)nc-ky Fruits Basket",
+    "city": "1385 Woodroffe Ave, Ottawa",
+    "province": "Ontario",
+    "active": true,
+    "fruits": [
+        {
+            "name": "Banana",
+            "image": "./images/banana.png",
+            "importedFrom": "Colombia",
+            "price": 2.45,
+            "benefits": ["Potassium", "Vitamin B6", "Vitamin C"]
+        },
+        {
+            "name": "Apple",
+            "image": "./images/apple.png",
+            "importedFrom": "Japan",
+            "price": 1.99,
+            "benefits": ["Vitamin C", "Potassium", "Fiber"]
+        },
+        {
+            "name": "Watermelon",
+            "image": "./images/watermelon.png",
+            "importedFrom": "The Philippines",
+            "price": 7.45,
+            "benefits": ["Vitamin A", "Vitamin C", "Folate"]
+        },
+        {
+            "name": "Grapes",
+            "image": "./images/grapes.png",
+            "importedFrom": "Italy",
+            "price": 9.99,
+            "benefits": ["Vitamin A", "Vitamin C", "Folate"]
+        }
+    ]
+}
