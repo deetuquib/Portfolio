@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "G+XAlD6ejvOD/cZGG1jmqfsxTumHWZ+skI45BdBv3RLMo5ay0MMvbkgI73+8IiB7VgcZx14cRIB+OzRDHvz1bA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deetu\\My Files\\Projects\\github.com\\deetuquib\\wdia-notes\\2022w\\cst8253_web_programming_ii\\lab3-origfile\\Lab3\\Lab3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deetu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\deetu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\deetu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\deetu\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

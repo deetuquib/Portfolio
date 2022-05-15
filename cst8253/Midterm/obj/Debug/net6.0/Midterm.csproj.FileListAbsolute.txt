@@ -1,0 +1,30 @@
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\bin\Debug\net6.0\Midterm.exe
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\bin\Debug\net6.0\Midterm.deps.json
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\bin\Debug\net6.0\Midterm.runtimeconfig.json
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\bin\Debug\net6.0\Midterm.dll
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\bin\Debug\net6.0\ref\Midterm.dll
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\bin\Debug\net6.0\Midterm.pdb
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\obj\Debug\net6.0\Midterm.csproj.AssemblyReference.cache
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\obj\Debug\net6.0\Midterm.GeneratedMSBuildEditorConfig.editorconfig
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\obj\Debug\net6.0\Midterm.AssemblyInfoInputs.cache
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\obj\Debug\net6.0\Midterm.AssemblyInfo.cs
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\obj\Debug\net6.0\Midterm.csproj.CoreCompileInputs.cache
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\obj\Debug\net6.0\Midterm.dll
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\obj\Debug\net6.0\ref\Midterm.dll
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\obj\Debug\net6.0\Midterm.pdb
+C:\OneD\OneDrive\Alg\22W\CST8253\Week 9 - Midterm\Version 4\Midterm\obj\Debug\net6.0\Midterm.genruntimeconfig.cache
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\bin\Debug\net6.0\Midterm.exe
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\bin\Debug\net6.0\Midterm.deps.json
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\bin\Debug\net6.0\Midterm.runtimeconfig.json
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\bin\Debug\net6.0\Midterm.dll
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\bin\Debug\net6.0\ref\Midterm.dll
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\bin\Debug\net6.0\Midterm.pdb
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\obj\Debug\net6.0\Midterm.csproj.AssemblyReference.cache
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\obj\Debug\net6.0\Midterm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\obj\Debug\net6.0\Midterm.AssemblyInfoInputs.cache
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\obj\Debug\net6.0\Midterm.AssemblyInfo.cs
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\obj\Debug\net6.0\Midterm.csproj.CoreCompileInputs.cache
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\obj\Debug\net6.0\Midterm.dll
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\obj\Debug\net6.0\ref\Midterm.dll
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\obj\Debug\net6.0\Midterm.pdb
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\Midterm\obj\Debug\net6.0\Midterm.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\lab4_bank\ConsoleApp1\obj\Debug\Lab4.csproj.AssemblyReference.cache
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\lab4_bank\ConsoleApp1\obj\Debug\Lab4.csproj.SuggestedBindingRedirects.cache
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\lab4_bank\ConsoleApp1\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\lab4_bank\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\lab4_bank\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\lab4_bank\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\lab4_bank\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\deetu\My Files\Projects\github.com\deetuquib\wdia-notes\2022w\cst8253_web_programming_ii\lab4_bank\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

@@ -1,0 +1,8 @@
+C:\Users\deetu\My Files\Web Development and Internet Applications (WDIA)\2022w\cst8253_web_programming_ii\lab1\bin\Debug\lab1.exe.config
+C:\Users\deetu\My Files\Web Development and Internet Applications (WDIA)\2022w\cst8253_web_programming_ii\lab1\bin\Debug\lab1.exe
+C:\Users\deetu\My Files\Web Development and Internet Applications (WDIA)\2022w\cst8253_web_programming_ii\lab1\bin\Debug\lab1.pdb
+C:\Users\deetu\My Files\Web Development and Internet Applications (WDIA)\2022w\cst8253_web_programming_ii\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+C:\Users\deetu\My Files\Web Development and Internet Applications (WDIA)\2022w\cst8253_web_programming_ii\lab1\obj\Debug\lab1.csproj.SuggestedBindingRedirects.cache
+C:\Users\deetu\My Files\Web Development and Internet Applications (WDIA)\2022w\cst8253_web_programming_ii\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+C:\Users\deetu\My Files\Web Development and Internet Applications (WDIA)\2022w\cst8253_web_programming_ii\lab1\obj\Debug\lab1.exe
+C:\Users\deetu\My Files\Web Development and Internet Applications (WDIA)\2022w\cst8253_web_programming_ii\lab1\obj\Debug\lab1.pdb
