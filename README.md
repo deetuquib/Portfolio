@@ -4,7 +4,6 @@
 
 -   [Resume](./gep1001)
 -   [LinkedIn](https://www.linkedin.com/in/dianajeanctuquib/)
--   [Transcript](/gep1001)
 -   [Web Development and Internet Applications (WDIA) Program](https://www.algonquincollege.com/sat/program/internet-applications-web-development/#courses)
 
 ## Level 01
