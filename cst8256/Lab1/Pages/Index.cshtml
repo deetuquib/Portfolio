@@ -1,0 +1,68 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Lab 1 - Statistics</h1> 
+    <p>
+		Enter one, two, or three numerical numbers and click Calculate button to get their statistics.
+	</p>
+
+	<form method="post">
+
+		<h5><div class="row" align="center">
+
+            <!-- First number -->
+            <div class="col-3 mt-2" align="right">
+                    First Number:
+            </div> <div class="col-9 mt-2" align="left">
+                    <input type="text" asp-for="FirstNumber" class=""/>
+            </div>
+
+            <!-- Second number -->
+            <div class="col-3 mt-2" align="right">
+                    Second Number:
+            </div> <div class="col-9 mt-2" align="left">
+                <input type="text" asp-for="SecondNumber" class=""/>
+            </div>
+
+            <!-- Third number -->
+            <div class="col-3 mt-2" align="right">
+                Third Number:
+            </div> <div class="col-9 mt-2" align="left">
+                <input type="text" asp-for="ThirdNumber" class=""/>
+            </div>
+
+            <!-- Calculate -->
+            <div class="col-3 mt-2" align="right">
+                <button class="btn btn-primary" type="submit">Calculate</button>
+            </div>
+            <div class="col-9 mt-2 alert-danger" style="@(Model.IsPostBack && !Model.Validity ? "display:normal" : "display:none")">
+                Invalid input. Please try again.
+            </div>
+
+        </div></h5>
+
+        <!-- Results -->
+        <h4>Statistics Results</h4>
+
+        <h5><div class="row justify-content-start" style="@(Model.Validity ? "display:normal" : "display:none")">
+
+            <div class="col-3 mt-2" align="right"> Maximum: </div>
+			<div class="col-9 mt-2" align="left"> @($"{Model.Max:F2}") </div>
+
+            <div class="col-3 mt-2" align="right"> Minimum: </div>
+			<div class="col-9 mt-2" align="left"> @($"{Model.Min}") </div>
+
+            <div class="col-3 mt-2" align="right"> Average: </div>
+			<div class="col-9 mt-2" align="left"> @($"{Model.Average:F2}") </div>
+
+			<div class="col-3 mt-2" align="right"> Sum: </div>
+			<div class="col-9 mt-2 mb-5" align="left"> @($"{Model.Sum:F2}") </div>
+        </div></h5>
+
+	</form>
+
+</div>
