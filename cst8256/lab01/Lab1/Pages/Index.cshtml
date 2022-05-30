@@ -50,17 +50,20 @@
 
         <h5><div class="row justify-content-start" style="@(Model.Validity ? "display:normal" : "display:none")">
 
+			<p>You entered @Model.Numbers.Count number(s). The following are their statistics: </p>
+
             <div class="col-3 mt-2" align="right"> Maximum: </div>
 			<div class="col-9 mt-2" align="left"> @($"{Model.Max:F2}") </div>
 
             <div class="col-3 mt-2" align="right"> Minimum: </div>
 			<div class="col-9 mt-2" align="left"> @($"{Model.Min}") </div>
 
-            <div class="col-3 mt-2" align="right"> Average: </div>
-			<div class="col-9 mt-2" align="left"> @($"{Model.Average:F2}") </div>
-
 			<div class="col-3 mt-2" align="right"> Sum: </div>
-			<div class="col-9 mt-2 mb-5" align="left"> @($"{Model.Sum:F2}") </div>
+			<div class="col-9 mt-2" align="left"> @($"{Model.Sum:F2}") </div>
+
+			<div class="col-3 mt-2" align="right"> Average: </div>
+			<div class="col-9 mt-2 mb-5" align="left"> @($"{Model.Average:F2}") </div>
+
         </div></h5>
 
 	</form>

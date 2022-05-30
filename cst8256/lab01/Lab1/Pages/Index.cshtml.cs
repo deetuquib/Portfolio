@@ -54,6 +54,9 @@ namespace Lab1.Pages
             if (Double.TryParse(SecondNumber, out secondNum)) { Numbers.Add(secondNum); } else { Validity = false; }
             if (Double.TryParse(ThirdNumber, out thirdNum)) { Numbers.Add(thirdNum); } else { Validity = false; }
 
+            // remove 0s from Count
+            Numbers.Remove(0); Numbers.Remove(0); Numbers.Remove(0);
+
             // if count > 0
             if (Numbers.Count > 0)
             {
