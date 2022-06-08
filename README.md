@@ -6,6 +6,10 @@
 -   [LinkedIn](https://www.linkedin.com/in/dianajeanctuquib/)
 -   [Web Development and Internet Applications (WDIA) Program](https://www.algonquincollege.com/sat/program/internet-applications-web-development/#courses)
 
+## Academic Projects:
+
+-   Horasaurus Dinodiac
+
 ## Level 01
 
 | Code                 | Name                                           | Description                                                  |
