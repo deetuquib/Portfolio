@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Christopher Bothamley">
+        <meta name="author" content="Vincent Pierre Chevalier">
+        <meta name="author" content="Jordan Meade">
+        <meta name="author" content="Diana Jean C Tuquib">
+        <meta name="email" content="tuqu0002@algonquinlive.com">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <meta name="viewport" content="width=device-width,initial-scale=1"/> -->
+
+        <title>Dinodiacs</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;900&family=Tomorrow:wght@700;800&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./css/main.css">
+
+    </head>
+
+    <body>
+        <main>
+            <section class="main-card welcome align-center">
+                <h1>Horasauruscope Dinodiac</h1>
+                <img src="./img/horasaurusTrex.png" class="circle-img big-circle">
+                <div class="card-content">
+                    <p class="description">
+                      Ever wondered what type of Zodiac sign you are? What about the type of Dinosaur?
+                      If you answered YES! Then welcome to the Horasauruscope Dinodiac!                     </p>
+                    <div class="cta"><button class="btn-small js-btn-enter">Enter</button></div>
+                </div>
+            </section>
+
+            <section class="main-card get-info align-center hide">
+                <img src="./img/horasaurusTrex.png" class="circle-img big-circle">
+                <h2>Let's get to know you</h2>
+                <form class="form-container" name="userInfo">
+                    <label for="user-name">Name</label>
+                    <input class="input-info" name="username" id="user-name" type="text">
+                    <label for="user-birth">Birthday</label>
+                    <input class="input-info" name="userbirthday" id="user-birth" type="date">
+                    <div class="cta">
+                        <input class="btn-big get-zodiac js-btn-submit" id="zodiac-btn" type="submit" value="Get your Zodiac!" readonly>
+                    </div>
+                </form>
+            </section>
+
+            <section class="main-card zodiac align-center hide">
+                <section class="zodiac-info">
+                    <img src="img/gray_rectangle.png" class="circle-img">
+                    <div class="card-content">
+                        <h2 class="mid-title">Cancer</h2>
+                        <p>
+                            Donec nec dui feugiat, dapibus tellus a, suscipit justo. Vestibulum tempus nisi orci, maximus sodales felis lacinia quis. Donec fermentum lectus nec eros vestibulum blandit. Curabitur pharetra tellus elementum felis malesuada, in vulputate arcu pulvinar. Nam eu dui in velit laoreet dictum et facilisis magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam euismod ac augue id sagittis. Vestibulum commodo facilisis dolor, id pretium arcu vestibulum id.
+                        </p>
+                    </div>
+                </section>
+                <section>
+                    <h3>Release the beast?</h3>
+                    <p>Wanna know your Horosauruscope Dinodiac?</p>
+                    <div>
+                        <button class="btn-small js-btn-start-quiz btn" id="start-btn">Yes!</button>
+                    </div>
+                </section>
+            </section>
+            
+            <input type="text" class="zodiac-sign hide" value="" readyonly>
+
+            <section class="main-card quiz-pad align-center hide">
+                <h3 class="questionText">What is your blah blah blah?</h3>
+                <div class="quiz-container">
+                    <div class="answer-buttons">
+                        <button class="btn-big answer-buttons">Answer A</button>
+                        <button class="btn-big answer-buttons">Answer B</button>
+                        <button class="btn-big answer-buttons">Answer C</button>
+                        <button class="btn-big answer-buttons">Answer D</button>
+                    </div>
+            </div>
+            </section>
+
+            <section class="main-card dinodiac align-center hide">
+                <div class="card-content">
+                    <img src="./img/T-rex.jpg" class="circle-img">
+                    <h2>Aries T-rex</h2>
+                    <p>
+                      As a Tyrannosaurus Aries you are  unafraid of conflict, highly competitive, honest, and direct. You are driven by a desire to prove yourself and your strength. A Tyrannosaurus Aries is not weighed down by the freedom of choice. They throw themselves at the world eagerly and without fear. They are highly self-aware, have strong opinions and are always ready to defend them against a fellow Dinosaur.                    </p>
+                    <a href="#"><h3> Learn more </h3></a>
+                </div>
+                <section>
+                    <h3>Take the quiz again?</h3>
+                    <div>
+                        <button class="btn-small js-btn-restart-quiz">Yes</button>
+                        <button class="btn-small js-btn-no">No</button>
+                    </div>
+                </section>
+            </section>
+
+            <section class="main-card about-us hide">
+                <h2>About</h2>
+                <p class="description">
+                  Ever wondered what type of Zodiac sign you are? What about the type of Dinosaur?
+                  If you answered YES! Then welcome to the Horasauruscope Dinodiac!
+                  On this website you can enter your name and birthdate, take a short quiz, and find out just what type of Dinosaur Zodiac sign you are!
+                  Then sit back and watch as the webpage transforms into a unique theme based on the information you provided!
+                </p>
+                <p class="description">
+                    If you have ever asked yourself why you like a certain food so much, why you enjoy long walks on the beach, if you’re a pack leader of a herd of ferocious carnivores, or can’t wait to rip apart a Dinosaur threatening to eat your young.
+                    Then this site is for you!
+                    We have set out to make a fun interactive website that creates a Dinosaur Zodiac reading based on the information YOU provide.
+                    Take the test as many times as you like to see all the unique and interesting results!
+                </p>
+            </section>
+
+            <section class="main-card mosa about-dinosaur align-center hide">
+            <img src="./img/Mosasaurus.png" class="circle-img">
+            <div class="card-content">
+                <h2>Mosasaurus</h2>
+                <p>
+                    Mosasaurus ( "lizard of the Meuse River") is the type genus (defining example) of the mosasaurs, an extinct group of aquatic squamate reptiles. The skull of Mosasaurus was equipped with robust jaws capable of swinging back and forth and strong muscles capable of powerful bites using dozens of large teeth designed for cutting prey. Its four limbs were shaped into robust paddles to steer the animal underwater. Its tail was long and ended in a downward bend and a paddle-like fluke. Mosasaurus was a predator possessing excellent vision to compensate for its poor sense of smell. Mosasaurus was a common large predator in these oceans and was positioned at the top of the food chain.
+                </p>
+                <a href="#" class="restart-page"><h3>Let's restart</h3></a>
+            </div>
+            </section>
+
+            <section class="main-card titan about-dinosaur align-center hide">
+            <img src="./img/titanosaur.jpg" class="circle-img">
+            <div class="card-content">
+                <h2>Titanosaurus</h2>
+                <p>
+                    Were some of the largest land animals known to have ever existed. The largest ones weighed as much as 76 tons. Many titanosaurs were armored with a small mosaic of small, bead-like scales surrounding larger scales. Their diet consisted of a wide variety of plants and grasses. These terrestrial titans traveled in herds and exhibited a pack behaviour that offered defenses against other predators.
+                </p>
+                <a href="#" class="restart-page"><h3>Let's restart</h3></a>
+            </div>
+            </section>
+
+            <section class="main-card quetz about-dinosaur align-center hide">
+            <img src="./img/quetzlcoatlus.jpg" class="circle-img">
+            <div class="card-content">
+                <h2>Quetzalcoatlus</h2>
+                <p>
+                    Quetzalcoatlus is a pterosaur known from the Late Cretaceous period of North America (Maastrichtian stage); it was one of the largest known flying animals of all time. These exceptional creatures boasted wingspans as large as 55 feet across, lifting the proposed 1,100lb creature into the skies. A terrifying sight to behold. These terrestrial stalkers, similar to modern storks, probably hunted small vertebrates on land or in small streams.
+                </p>
+                <a href="#" class="restart-page"><h3>Let's restart</h3></a>
+            </div>
+            </section>
+
+            <section class="main-card trex about-dinosaur align-center hide">
+            <img src="./img/T-rex.jpg" class="circle-img">
+            <div class="card-content">
+                <h2>Tyrannosaurus Rex</h2>
+                <p>
+                    The species Tyrannosaurus rex (rex meaning "king" in Latin). Tyrannosaurus was a bipedal carnivore with a massive skull balanced by a long, heavy tail. Relative to its large and powerful hind limbs, the forelimbs of Tyrannosaurus were short but unusually powerful for their size, and they had two clawed digits. T-rex is among the largest known land predators and is estimated to have exerted the strongest bite force among all terrestrial animals. By far the largest carnivore in its environment, Tyrannosaurus rex was most likely an apex predator
+                </p>
+                <a href="#" class="restart-page"><h3>Let's restart</h3></a>
+            </div>
+            </section>
+
+            <section class="main-card dino-types align-center hide">
+                <h2> Dinosaur Types </h2>
+                <div class="dino-container">
+                    <button class="dino-item t-rex js-btn-dino-trex fire"><img class="dino-img" src="./img/T-rex.jpg">T-rex</button>
+                    <button class="dino-item titanosaur js-btn-dino-titan earth"><img class="dino-img" src="./img/titanosaur.jpg">Titanosaurus</button>
+                    <button class="dino-item quetzalcoatlus air js-btn-dino-quetz"><img class="dino-img" src="./img/quetzlcoatlus.jpg">Quetzalcoatlus</button>
+                    <button class="dino-item mosasaurus water js-btn-dino-mosa"><img class="dino-img" src="./img/Mosasaurus.png">Mosasaurus</button>
+                </div>
+            </section>
+        </main>
+        <footer class="align-center">
+            <h4>Horosaurus Dinodiac 2021</h4>
+            <h4>A Team F( )nc Production</h4>
+            <a href="about.html" class="about">About Us</a>
+
+        </footer>
+        <script src="./js/questions.js" defer></script>
+        <script src="./js/zodiac.js" defer></script>
+        <script src="./js/quiz.js" defer></script>
+        <script src="./js/script.js" defer></script>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

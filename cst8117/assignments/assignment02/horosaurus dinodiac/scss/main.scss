@@ -1,0 +1,424 @@
+@import 'base';
+@import 'typography';
+
+// Variables --------------------------------------------------------
+$shadow: -5px 5px 5px 0 rgba(0,0,0,0.4);
+// Style for background ---------------------------------------------
+main {
+    overflow: hidden;
+    background-color: $base;
+  }
+
+// Style for main-card ----------------------------------------------
+.main-card {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: #fff;
+    width: 30%;
+    margin: 80px auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: $shadow;
+}
+
+.main-card > * {
+    margin-bottom: 60px;
+}
+
+.card-content {
+    margin-bottom: 0;
+}
+
+.card-content p {
+    margin-bottom: 60px;
+}
+
+// .card-content:first-child {
+//     margin-bottom: 60px;
+// }
+
+.circle-img {
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+// Style for footer ------------------------------------
+footer {
+    overflow: hidden;
+}
+
+
+// links
+a {
+    font-family: $base-font;
+    font-size: 30px;
+}
+  
+// button --------------------------------------------------------------
+// every button: 3 class
+button, input[type=submit] {
+    font-family: $btn-font;
+    font-weight: 700;
+    color: black;
+    background-color: white;
+    box-shadow: $shadow;
+    border: 1 black solid;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+    &.btn-small {
+        padding: 20px 40px;
+        margin: 0 20px;
+    }
+
+    &.btn-big {
+        padding: 20px 100px;
+        margin: 20px auto;
+    }
+
+    &.get-zodiac {
+        text-transform: none;
+        padding: 20px;
+    }
+    &.btn-big:hover, &.btn-small:hover, &.dino-item:hover {
+        background-color: $base;
+        box-shadow: none;
+    }
+}
+  // form --------------------------------------------------------------
+.input-info {
+    font-family: $btn-font;
+    font-weight: 700;
+    color: black;
+    background-color: white;
+    box-shadow: $shadow;
+    border: 1px black solid;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+
+
+// dinos --------------------------------------------------------------
+.dino-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    // grid-template-areas:
+    //     "t-rex titanosaur"
+    //     "quetzalcoatlus mosasaurus";
+    gap: 20px;
+}
+
+.dino-item {
+//     max-height: 250px;
+//     max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+//     grid-row: 1 / 1;
+//     grid-column: 1 / 1;
+}
+
+.dino-img  {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+// footer ------------------------------------------------------------------
+footer {
+    background-color: white;
+    border: 1px dashed black;
+    width: 250px;
+    margin: auto auto 40px auto;
+}
+body {
+    background-color: $base;
+}
+
+// hamburger menu ---------------------------------------------------------
+.burger {
+    width: 10%;
+    margin-right: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: whitesmoke;
+    position: relative;
+    
+    &.mylinks {
+    display: none;
+    }
+
+    & a {
+        color: black;
+        padding: 20px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    
+    & a.icon {
+        background: whitesmoke;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 20px;
+    }
+
+    & a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+}
+
+.active {
+    background-color: whitesmoke;
+  color: white;
+}
+
+
+
+// Media Queries ---------------------------------------------------------
+
+// 1200px
+@media (max-width: 1200px) {
+
+    .main-card {
+        padding: 60px;
+        width: 50%;
+        margin: 60px auto;
+    }
+
+    .dino-container {
+        gap: 20px;
+    }
+    
+    .dino-item {
+        padding: 20px;
+        width: 220px;
+        height: 220px;
+    }
+
+    .btn-small {
+        padding: 10px 20px;
+        margin: 0 20px;
+    }
+
+    .btn-big {
+        padding: 10px 50px;
+        margin: 20px auto;
+    }
+
+    .dino-container {
+        gap: 20px;
+    }
+    
+    .dino-item {
+        padding: 20px;
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+// 768px
+@media (max-width: 768px) {
+
+    .main-card {
+        padding: 60px;
+        width: 50%;
+        margin: 60px auto;
+    }
+
+    .input-info {
+        padding: 10px;
+    }
+
+    input[type=submit].get-zodiac {
+        padding: 10px;
+    }
+
+    .dino-container {
+        gap: 20px;
+    }
+    
+    .dino-item {
+        padding: 20px;
+        width: 220px;
+        height: 220px;
+    }
+
+    button.btn-small {
+        padding: 10px 20px;
+        margin: auto 5px;
+    }
+
+    button.btn-big {
+        padding: 20px 50px;
+        margin: 20px auto;
+    }
+    
+    .dino-container {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dino-item {
+        padding: 15px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .dino-img  {
+        height: 120px;
+        width: 120px;
+        margin-bottom: 10px;
+    }
+
+}
+
+// 480px
+@media (max-width: 480px) {
+
+    main {
+        overflow: hidden;
+        background-color: white;
+      }
+
+    .main-card {
+        padding: 20px;
+        background-color: #fff;
+        width: 100%;
+        margin: 20px auto;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0;
+    }
+    
+    .card-content, .main-card > * {
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+
+    // input[type=submit].get-zodiac {
+    //     padding: 10px;
+    //     margin: 0px auto;
+    // }
+
+    .card-content p {
+        margin-bottom: 20px;
+    }
+
+    .dino-container {
+        gap: 20px;
+    }
+    
+    .dino-item {
+        padding: 20px;
+        width: 220px;
+        height: 220px;
+    }
+
+    .btn-small {
+        padding: 10px 10px;
+        margin: 0 20px;
+    }
+
+    button.btn-big {
+        padding: 10px 40px;
+        margin: 10px auto;
+    }
+
+    // .quiz-container {
+    //     gap: 5px;
+    // }
+
+    .dino-container {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dino-item {
+        padding: 10px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .dino-img  {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .circle-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    footer {
+        background-color: whitesmoke;
+    }
+}
+
+
+.fire {
+    background-color: #ffd1b3;
+    border: 2px solid #f93636;
+    color: #691e06;
+    a:hover { color: #f93636}
+}
+
+.air {
+    background-color: #e3e4db;
+    border: 2px solid #cdcdcd;
+    color: #704281;
+    a:hover { color: #cdcdcd}
+}
+
+.water {
+    background-color: #c4e7d4;
+    border: 2px solid #009ffd;
+    color: #1f2646;
+    a:hover { color: #009ffd;} 
+}
+
+.earth {
+    background-color: #B0A084;
+    border: 2px solid #285329;
+    color: #32292f;
+    a:hover { color: #285329 }
+}

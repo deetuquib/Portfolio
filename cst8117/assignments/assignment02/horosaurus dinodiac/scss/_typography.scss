@@ -1,0 +1,199 @@
+$base-font: "Roboto Slab", serif;
+$header-font: "Tomorrow", sans-serif;
+$btn-font: "Roboto", sans-serif;
+
+
+// TYPOGRAPHY
+
+h1 {
+  font-family: $header-font;
+  font-size: 52px;
+}
+
+// page headers other than h1
+h2 {
+  font-family: $header-font;
+  font-size: 48px;
+}
+
+// top of form/cta sections
+h3 {
+  font-family: $base-font;
+  font-size: 36px;
+}
+
+// footer text
+h4 {
+  font-family: $base-font;
+  font-family: 24px;
+}
+
+a.about {
+  font-family: $base-font;
+  font-family: 24px;
+  color: #1f2646;
+}
+
+p, label {
+  font-family: $base-font;
+  font-size: 24px;
+}
+
+label {
+  font-weight: 700;
+}
+
+// all centered texts
+.align-center {
+  text-align: center;
+}
+
+//buton 
+button {
+  font-size: 24px;
+}
+
+// input 
+input {
+  font-size: 24px;
+}
+
+// links
+a:link, a:active, a:visited {
+  color: black;
+}
+
+a:hover {
+  color: darkgray;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+// Media Queries ---------------------------------------------------------
+
+@media (max-width: 1200px) {
+
+    h1 {
+        font-size: 38px;
+    }
+    
+    // page headers other than h1
+    h2 {
+        font-size: 36px;
+    }
+    
+    // top of form/cta sections
+    h3 {
+        font-size: 30px;
+    }
+    
+    // footer text
+    h4 {
+        font-family: 24px;
+    }
+    
+    p, label {
+        font-size: 22px;
+    }
+    
+    label {
+        font-weight: 700;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 32px;
+    }
+    
+    // page headers other than h1
+    h2 {
+        font-size: 30px;
+    }
+    
+    // top of form/cta sections
+    h3 {
+        font-size: 28px;
+    }
+    
+    // footer text
+    h4 {
+        font-family: 20px;
+    }
+    
+    p, label {
+        font-size: 18px;
+    }
+    
+    label {
+        font-weight: 700;
+    }
+
+    button {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 20px;
+    }
+    
+    // page headers other than h1
+    h2 {
+        font-size: 18px;
+    }
+    
+    // top of form/cta sections
+    h3 {
+        font-size: 15px;
+    }
+    
+    // footer text
+    h4 {
+        font-family: 14px;
+    }
+    
+    p, label {
+        font-size: 12px;
+    }
+    
+    label {
+        font-weight: 700;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    input {
+        font-size: 16px
+    }
+
+}
+
+
+
+
+
+
+  
+  // small or big btn () btn-small or btn-big
+  //   small padding:
+// form input
+
+// submit >> input
+//   btn, submit
+
+//   input submit
+//     text transform: none
