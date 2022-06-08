@@ -1,1 +1,0 @@
-This project allows the user to match their zodiac sign with a dinosaur.
