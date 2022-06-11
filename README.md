@@ -8,8 +8,8 @@
 
 ## Academic Projects:
 
--   [Horasaurus Dinodiac](./cst8117/assignments/assignment02/horosaurus%20dinodiac)
--   [CST8253 C# ASP.NET Lab 8](./cst8253/Lab8)
+-   [Web App Quiz: Horasaurus Dinodiac](./cst8117/assignments/assignment02/horosaurus%20dinodiac)
+-   [Web Form: Student and Course Registration](./cst8253/Lab8)
 
 ## Level 01
 
