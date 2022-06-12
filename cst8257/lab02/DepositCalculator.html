@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- Use Bootstrap to style the page -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <!-- Bootstrap's JavaScript library -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Lab 2 - Deposit Calculator</title>
+    </head>
+    <body>
+        
+        <form action='DepositCalculator.php' method="post">
+        
+            <div class="container mt-3 w-50 form">
+                
+                <h2>Lab 2 - Deposit Calculator</h2><br/>
+                
+                <!-- Amount -->
+                <div class="form-group row">
+                    <label for="principal" class="col-sm-2 col-form-label">Principal Amount:</label>
+                    <input type="text" class="form-control col-sm-3" id="principal" name="principal" />
+                </div>
+
+                <div class="form-group row">
+                    <label for="rate" class="col-sm-2 col-form-label">Interest Rate(%):</label>
+                    <input type="text" class="form-control col-sm-3" id="interestRate" name="rate" />
+                </div>
+
+                <div class="form-group row">
+                    <label for="years" class="col-sm-2 col-form-label">Years to Deposit:</label>
+                    <select id="years" name="years" class="form-select col-sm-3" >
+                        <option value="" disabled selected>Select years . . .</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                    </select>
+                </div>
+                
+                <br/>
+                <hr class="col-sm-5" align="left"/>
+                <br/>
+            
+                <!-- User Info -->
+                <div class="form-group row">
+                    <label for="name" class="col-sm-2 col-form-label">Name:</label>
+                    <input type="text" class="form-control col-md-3" id="name" name="name"/>
+                </div>
+
+                <div class="form-group row">
+                    <label for="code" class="col-sm-2 col-form-label">Postal Code:</label>
+                    <input type="text" class="form-control col-md-3" id="code" name="code"/>
+                </div>
+
+                <div class="form-group row">
+                    <label for="phone" class="col-sm-2 col-form-label">Phone Number:</label>
+                    <input type="text" class="form-control col-md-3" id="phone" name="phone"/>
+                </div>
+
+                <div class="form-group row">
+                    <label for="email" class="col-sm-2 col-form-label">Email:</label>
+                    <input type="text" class="form-control col-md-3" id="email" name="email"/>
+                </div>
+                
+                <br/>
+                <hr class="col-sm-5" align="left"/>
+                <br/>
+
+            
+                <!-- Contact Information -->
+                <div class="mb-3 mt-3">
+                    <label>Preferred contact method: </label><br/>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="preferredContact" id="phoneRadio" value="phone"/>
+                            <label class="form-check-label" for="phoneRadio">Phone</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="preferredContact" id="emailRadio" value="email">
+                            <label class="form-check-label" for="emailRadio">Email</label>
+                        </div>
+                </div>
+                <br/>
+                
+                <div class="mb-3 mt-3">
+                    <label for="contactTime">If phone is selected, please choose the best time: </label><br/>
+                        <div id="contactTime" class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="callTime[ ]" value="morning"/>
+                            <label class="form-check-label" for="morning">Morning</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="callTime[ ]" value="afternoon"/>
+                            <label class="form-check-label" for="afternoon">Afternoon</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox"  name="callTime[ ]" value="evening"/>
+                            <label class="form-check-label" for="evening">Evening</label>
+                        </div>
+                </div>
+                <br/>
+                
+                <!-- Submit -->
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="submit">Calculate</button>
+                    <button class="btn btn-primary" type="reset">Clear</button>
+                </div>
+                
+            </div>
+        </form>
+        
+    </body>
+</html>
