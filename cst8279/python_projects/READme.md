@@ -1,14 +1,14 @@
 # Python Applications
 
-1.   **Grade Calculator**
+1.   **[Grade Calculator](/grade_calculator.py)**
 
      This application calculates the user's final grade and gives its letter grade equivalent.
 
-2.  **Phonetic Alphabet Recording**
+2.  **[Phonetic Alphabet Recording](/phonetic_alphabet.py)**
 
     This application converts the user's name to its equivalent phonetic alphabet and saves it to an audio file.
 
-3.  **Christmas**
+3.  **[Christmas](/driver.py)**
 
     This application can:
 
