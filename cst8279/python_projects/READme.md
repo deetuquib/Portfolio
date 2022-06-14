@@ -1,6 +1,6 @@
 # Python Applications
 
-1.   **[Grade Calculator](/.grade_calculator.py)**
+1.   **[Grade Calculator](./cst8279/python_projects/grade_calculator.py)**
 
      This application calculates the user's final grade and gives its letter grade equivalent.
 
