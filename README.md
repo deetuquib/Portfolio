@@ -10,7 +10,7 @@
 
 -   [Web App Quiz: Horasaurus Dinodiac](./cst8117/assignments/assignment02/horosaurus%20dinodiac) - HTML, CSS/SASS, JavaScript
 -   [Web Form: Student and Course Registration](./cst8253/Lab8) - C# Web Form
--   [Python Application Projects](./cst8279/python_projects)
+-   [Python Console Applications](./cst8279/python_projects)
 
 ## Level 01
 
