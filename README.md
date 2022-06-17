@@ -3,6 +3,7 @@
 ## Links:
 
 -   [Resume](./gep1001)
+[-   Transcript](.gep1001)
 -   [LinkedIn](https://www.linkedin.com/in/dianajeanctuquib/)
 -   [Web Development and Internet Applications (WDIA) Program](https://www.algonquincollege.com/sat/program/internet-applications-web-development/#courses)
 
