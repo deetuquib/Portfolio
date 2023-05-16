@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<statement>
+	if (x &gt;  5 &amp;&amp; x &lt; 10 ) Continue; if (x &lt;= 5 || x &gt;=10) Stop, print &quot;All data have been extracted!&quot;;
+</statement>

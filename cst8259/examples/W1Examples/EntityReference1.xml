@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<statement>
+	if (x >  5 AND x < 10 ) Continue; if (x <= 5 OR x >=10) Stop, print "All data have been extracted!";
+</statement>
