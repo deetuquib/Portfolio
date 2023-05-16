@@ -1,20 +1,40 @@
 <!-- restaurant reviews -->
 
+<!-- lab 1 instructions
+        - list all restaurants in review
+        - list by location:
+            - area code
+            - postal code
+            - city
+        - find restaurants with the highest rating or above certain ratings
+        - list menu items
+
+-->
+
 <restaurants>
 
     <restaurant>
+        <!-- restaurant information -->
         <name> </name>
         <website></website>
-        <location>
+        <logo></logo>
+        <address><location>
             <street></street>
             <city></city>
             <state></state>
             <postalCode></postalCode>
-        </location>
+        </location></address>
         <phone>
             <number></number>
             <areaCode></areaCode>
         </phone>
+        <rating></rating>
+
+        <!-- general food information-->
+        <cuisine></cuisine>
+        <rating></rating>
+
+
     </restaurant>
 
 </restaurants>
