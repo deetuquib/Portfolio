@@ -1,0 +1,20 @@
+<!-- restaurant reviews -->
+
+<restaurants>
+
+    <restaurant>
+        <name> </name>
+        <website></website>
+        <location>
+            <street></street>
+            <city></city>
+            <state></state>
+            <postalCode></postalCode>
+        </location>
+        <phone>
+            <number></number>
+            <areaCode></areaCode>
+        </phone>
+    </restaurant>
+
+</restaurants>
