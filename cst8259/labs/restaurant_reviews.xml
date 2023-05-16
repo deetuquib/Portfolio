@@ -221,43 +221,46 @@
 
 
 
-<restaurant>
+    <!-- GONG'S ASIAN CUISINE -->
+    <restaurant>
         <!-- restaurant information -->
-        <name> </name>
-        <website></website>
+        <name>Gong's Asian Cuisine</name>
+        <website>www.asiancuisine.com</website>
         <logo>
-            <url></url>
-            <altText></altText>
+            <url>www.asiancuisine.com/resouce/images/cuisine.jpg</url>
+            <altText>gong's cuisine</altText>
             <dimensions>
-                <width></width>
-                <height></height>
+                <width>250</width>
+                <height>250</height>
             </dimensions>
         </logo>
         <address><location>
-            <street></street>
-            <city></city>
-            <state></state>
-            <postalCode></postalCode>
+            <street>1385 Woodroffe Avenue</street>
+            <city>Ottawa</city>
+            <state>Ontario</state>
+            <postalCode>K2G 1V8</postalCode>
         </location></address>
         <phone>
-            <number></number>
-            <areaCode></areaCode>
+            <number>613-727-4723</number>
+            <areaCode>613</areaCode>
         </phone>
 
         <!-- general information-->
-        <rating></rating>
-        <cuisine></cuisine>
-        <priceRange></priceRange>
+        <rating>5</rating>
+        <cuisine>Asian</cuisine>
+        <priceRange>$</priceRange>
         <date>
-            <year></year>
-            <month></month>
-            <day></day>
+            <year>2020</year>
+            <month>December</month>
+            <day>3</day>
         </date>
 
         <!-- review -->
         <review>
-            <reviewer></reviewer>
-            <summary></summary>
+            <reviewer>Brenda P. Smith</reviewer>
+            <summary>
+                The food is always consistent. A good variety of dim sum, sushi, Chinese and even Vietnamese dishes. The service is quick and the food is plentiful. We sat down last night and within seconds of turning in our first order, the plates were on the table! The teriyaki dishes had the right amount of sauce and weren't sickeningly sweet. The chicken, fish, and beef were perfectly cooked. The makirolls were neatly rolled, cut properly and seasoned well. Loved the General Tao chicken, the steamed BBQ pork buns, the eel sushi and the lovely eggplant. We will be going back again! I would highly recommend it. 
+            </summary>
         </review>
 
         <!-- menu information -->
@@ -266,9 +269,30 @@
             <appetizers>
                 <items>
                     <item>
-                        <name></name>
-                        <description></description>
-                        <price></price>
+                        <name>Egg Roll</name>
+                        <price>
+                            <singlePiece>1.50</singlePiece>
+                            <twelvePieces>15</twelvePieces>
+                        </price>
+                    </item>
+                    <item>
+                        <name>Spring Roll</name>
+                        <price>
+                            <singlePiece>1.90</singlePiece>
+                            <twelvePieces>20</twelvePieces>
+                        </price>
+                    </item>
+                    <item>
+                        <name>Shrimp Chips</name>
+                        <price>2.50</price>
+                    </item>
+                    <item>
+                        <name>Fried Noodles</name>
+                        <price>1</price>
+                    </item>
+                    <item>
+                        <name>Sweet and Sour Fried Wonton Skin</name>
+                        <price><twelvePieces>3.50</twelvePieces></price>
                     </item>
                 </items>
             </appetizers>
@@ -276,9 +300,28 @@
             <entrees>
                 <items>
                     <item>
-                        <name></name>
-                        <description></description>
-                        <price></price>
+                        <name>Scallops with vegetables</name>
+                        <price>14.95</price>
+                    </item>
+                    <item>
+                        <name>Sweet and Sour Fish Cantonese Style</name>
+                        <price>13.95</price>
+                    </item>
+                    <item>
+                        <name>Shrimps with Vegetables</name>
+                        <price>12.95</price>
+                    </item>
+                    <item>
+                        <name>Beef with Mushroom</name>
+                        <price>12.25</price>
+                    </item>
+                    <item>
+                        <name>Beef with Tomato</name>
+                        <price>10.25</price>
+                    </item>
+                    <item>
+                        <name>Beef with Broccoli</name>
+                        <price>9.25</price>
                     </item>
                 </items>
             </entrees>
@@ -289,37 +332,38 @@
 
 
 
+    <!-- BAKER STREET TEXMEX GRILL -->
     <restaurant>
         <!-- restaurant information -->
-        <name> </name>
-        <website></website>
+        <name>Baker Street TexMex Grill</name>
+        <website>www.texmaxgrill.com</website>
         <logo>
-            <url></url>
-            <altText></altText>
+            <url>www.texmex.com/images/texmex.jpg</url>
+            <altText>baker street texmex grill</altText>
             <dimensions>
-                <width></width>
-                <height></height>
+                <width>150</width>
+                <height>150</height>
             </dimensions>
         </logo>
         <address><location>
-            <street></street>
-            <city></city>
-            <state></state>
-            <postalCode></postalCode>
+            <street>200 Baker Street</street>
+            <city>Ottawa</city>
+            <state>Ontario</state>
+            <postalCode>B1G 1V1</postalCode>
         </location></address>
         <phone>
-            <number></number>
-            <areaCode></areaCode>
+            <number>613-333-4444</number>
+            <areaCode>613</areaCode>
         </phone>
 
         <!-- general information-->
-        <rating></rating>
-        <cuisine></cuisine>
-        <priceRange></priceRange>
+        <rating>3</rating>
+        <cuisine>Mexican</cuisine>
+        <priceRange>$$</priceRange>
         <date>
-            <year></year>
-            <month></month>
-            <day></day>
+            <year>2021</year>
+            <month>January</month>
+            <day>3</day>
         </date>
 
         <!-- review -->
