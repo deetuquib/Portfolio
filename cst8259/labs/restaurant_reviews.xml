@@ -12,96 +12,22 @@
 
 
     TODO:
-    
-    
+
 
     DONE:
     - edit items to menuItems and add attribute appetizer
     - remove twelvePieces tag and add attribute pieces for egg roll price quantity
     - add logo xmlns for url
+    - remove location element
+    - phone number no need to repeat area code
+    - rating should be similar format as pricing
+    - unit in dimension
+    - change xmnls to source
+    - date format should be ISO yyyy-mm-dd
 
 -->
 
 <restaurants>
-
-    <!-- price legend -->
-    <priceRange><priceLegend>
-        <minimum><legendItem>
-            <symbol>$</symbol>
-            <meaning>Inexpensive</meaning>
-        </legendItem></minimum>
-        <legendItem>
-            <symbol>$$</symbol>
-            <meaning>Moderately expensive</meaning>
-        </legendItem>
-        <legendItem>
-            <symbol>$$$</symbol>
-            <meaning>Expensive</meaning>
-        </legendItem>
-        <maximum><legendItem>
-            <symbol>$$$$</symbol>
-            <meaning>Very Expensive</meaning>
-        </legendItem></maximum>
-    </priceLegend></priceRange>
-
-    <restaurant>
-        <!-- restaurant information -->
-        <name></name>
-        <website></website>
-        <logo xmnls="">
-            <altText></altText>
-            <dimensions>
-                <width></width>
-                <height></height>
-            </dimensions>
-        </logo>
-        <address><location>
-            <street></street>
-            <city></city>
-            <state></state>
-            <postalCode></postalCode>
-        </location></address>
-        <phone>
-            <number></number>
-            <areaCode></areaCode>
-        </phone>
-
-        <!-- general information-->
-        <rating></rating>
-        <cuisine></cuisine>
-        <priceRange></priceRange>
-        <date>
-            <year></year>
-            <month></month>
-            <day></day>
-        </date>
-
-        <!-- review -->
-        <review>
-            <reviewer></reviewer>
-            <summary></summary>
-        </review>
-
-        <!-- menu information -->
-        <menu>
-            <!-- appetizers -->
-            <menuItem type="appetizer">
-                <name></name>
-                    <description></description>
-                    <price></price>
-            </menuItem>
-            <!-- entrees -->
-            <menuItem type="entree">
-                <name></name>
-                <description></description>
-                <price></price>
-            </menuItem>
-        </menu>
-
-    </restaurant>
-
-
-
 
 
     <!-- GIOVANNI'S ITALIA FINE DINING -->
@@ -109,33 +35,29 @@
         <!-- restaurant information -->
         <name>Giovanni's Italia Fine Dining</name>
         <website>www.giovannis.com</website>
-        <logo xmnls="www.giovannis.com/img/logo.gif">
+        <logo source="www.giovannis.com/img/logo.gif">
             <altText>giovannis</altText>
-            <dimensions>
-                <width unit="px">200</width>
+            <dimensions unit="px">
+                <width>200</width>
                 <height>200</height>
             </dimensions>
         </logo>
-        <address><location>
+        <address>
             <street>2100 Lakeview Road</street>
             <city>Toronto</city>
             <state>Ontario</state>
             <postalCode>K1K 1K1</postalCode>
-        </location></address>
+        </address>
         <phone>
-            <number>416-123-4567</number>
             <areaCode>416</areaCode>
+            <number>123-4567</number>
         </phone>
 
         <!-- general information-->
         <rating min="1" max="5">4</rating>
         <cuisine>Italian</cuisine>
-        <priceRange>$$$$</priceRange>
-        <date>
-            <year>2020</year>
-            <month>January</month>
-            <day>10</day>
-        </date>
+        <priceRange min="1" max="4">4</priceRange>
+        <date>2020-01-10</date>
 
         <!-- review -->
         <review>
@@ -219,33 +141,29 @@
         <!-- restaurant information -->
         <name>Gong's Asian Cuisine</name>
         <website>www.asiancuisine.com</website>
-        <logo xmnls="www.asiancuisine.com/resouce/images/cuisine.jpg">
+        <logo source="www.asiancuisine.com/resouce/images/cuisine.jpg">
             <altText>gong's cuisine</altText>
-            <dimensions>
-                <width unit="px">250</width>
+            <dimensions unit="px">
+                <width>250</width>
                 <height>250</height>
             </dimensions>
         </logo>
-        <address><location>
+        <address>
             <street>1385 Woodroffe Avenue</street>
             <city>Ottawa</city>
             <state>Ontario</state>
             <postalCode>K2G 1V8</postalCode>
-        </location></address>
+        </address>
         <phone>
-            <number>613-727-4723</number>
             <areaCode>613</areaCode>
+            <number>727-4723</number>
         </phone>
 
         <!-- general information-->
         <rating min="1" max="5">5</rating>
         <cuisine>Asian</cuisine>
-        <priceRange>$</priceRange>
-        <date>
-            <year>2020</year>
-            <month>December</month>
-            <day>3</day>
-        </date>
+        <priceRange min="1" max="4">1</priceRange>
+        <date>2020-12-03</date>
 
         <!-- review -->
         <review>
@@ -319,33 +237,29 @@
         <!-- restaurant information -->
         <name>Baker Street TexMex Grill</name>
         <website>www.texmaxgrill.com</website>
-        <logo xmnls="www.texmex.com/images/texmex.jpg">
+        <logo source="www.texmex.com/images/texmex.jpg">
             <altText>baker street texmex grill</altText>
-            <dimensions>
-                <width unit="px">150</width>
+            <dimensions unit="px">
+                <width>150</width>
                 <height>150</height>
             </dimensions>
         </logo>
-        <address><location>
+        <address>
             <street>200 Baker Street</street>
             <city>Ottawa</city>
             <state>Ontario</state>
             <postalCode>B1G 1V1</postalCode>
-        </location></address>
+        </address>
         <phone>
-            <number>613-333-4444</number>
             <areaCode>613</areaCode>
+            <number>333-4444</number>
         </phone>
 
         <!-- general information-->
         <rating min="1" max="5">3</rating>
         <cuisine>Mexican</cuisine>
-        <priceRange>$$</priceRange>
-        <date>
-            <year>2021</year>
-            <month>January</month>
-            <day>3</day>
-        </date>
+        <priceRange min="1" max="4">2</priceRange>
+        <date>2021-01-03</date>
 
         <!-- review -->
         <review>
@@ -424,5 +338,69 @@
             </menuItem>
         </menu>
 
+
+
+
+
+
+
+
+
+        <restaurant>
+        <!-- restaurant information -->
+        <name></name>
+        <website></website>
+        <logo source="">
+            <altText></altText>
+            <dimensions>
+                <width></width>
+                <height></height>
+            </dimensions>
+        </logo>
+        <address>
+            <street></street>
+            <city></city>
+            <state></state>
+            <postalCode></postalCode>
+        </address>
+        <phone>
+            <number></number>
+            <areaCode></areaCode>
+        </phone>
+
+        <!-- general information-->
+        <rating min="1" max="5"></rating>
+        <cuisine></cuisine>
+        <priceRange min="1" max="4"></priceRange>
+        <date>yyyy-mm-dd</date>
+
+        <!-- review -->
+        <review>
+            <reviewer></reviewer>
+            <summary></summary>
+        </review>
+
+        <!-- menu information -->
+        <menu>
+            <!-- appetizers -->
+            <menuItem type="appetizer">
+                <name></name>
+                    <description></description>
+                    <price></price>
+            </menuItem>
+            <!-- entrees -->
+            <menuItem type="entree">
+                <name></name>
+                <description></description>
+                <price></price>
+            </menuItem>
+        </menu>
+
+    </restaurant>
+
     </restaurant>
 </restaurants>
+
+
+
+
