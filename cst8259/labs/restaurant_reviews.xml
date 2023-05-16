@@ -14,7 +14,7 @@
 <restaurants>
 
     <!-- price legend -->
-    <priceLegend>
+    <priceRange><priceLegend>
         <minimum><legendItem>
             <symbol>$</symbol>
             <meaning>Inexpensive</meaning>
@@ -31,13 +31,20 @@
             <symbol>$$$$</symbol>
             <meaning>Very Expensive</meaning>
         </legendItem></maximum>
-  </priceLegend>
+    </priceLegend></priceRange>
 
     <restaurant>
         <!-- restaurant information -->
         <name> </name>
         <website></website>
-        <logo></logo>
+        <logo>
+            <url></url>
+            <altText></altText>
+            <dimensions>
+                <width></width>
+                <height></height>
+            </dimensions>
+        </logo>
         <address><location>
             <street></street>
             <city></city>
@@ -48,12 +55,116 @@
             <number></number>
             <areaCode></areaCode>
         </phone>
-        <rating></rating>
 
         <!-- general information-->
         <rating></rating>
         <cuisine></cuisine>
-        <pri
+        <priceRange></priceRange>
+        <date>
+            <year></year>
+            <month></month>
+            <day></day>
+        </date>
+
+        <!-- review -->
+        <review>
+            <reviewer></reviewer>
+            <summary></summary>
+        </review>
+
+        <!-- menu information -->
+        <menu>
+            <!-- appetizers -->
+            <appetizers>
+                <items>
+                    <item>
+                        <name></name>
+                        <description></description>
+                        <price></price>
+                    </item>
+                </items>
+            </appetizers>
+            <!-- entrees -->
+            <entrees>
+                <items>
+                    <item>
+                        <name></name>
+                        <description></description>
+                        <price></price>
+                    </item>
+                </items>
+            </entrees>
+        </menu>
+
+    </restaurant>
+
+
+
+    <!-- GIOVANNI'S ITALIA FINE DINING -->
+    <restaurant>
+        <!-- restaurant information -->
+        <name>Giovanni's Italia Fine Dining</name>
+        <website>www.giovannis.com</website>
+        <logo>
+            <url>www.giovannis.com/img/logo.gif</url>
+            <altText>giovannis</altText>
+            <dimensions>
+                <width>200</width>
+                <height>200</height>
+            </dimensions>
+        </logo>
+        <address><location>
+            <street>2100 Lakeview Road</street>
+            <city>Toronto</city>
+            <state>Ontario</state>
+            <postalCode>K1K 1K1</postalCode>
+        </location></address>
+        <phone>
+            <number>416-123-4567</number>
+            <areaCode>416</areaCode>
+        </phone>
+
+        <!-- general information-->
+        <rating>4</rating>
+        <cuisine>Italian</cuisine>
+        <priceRange>$$$$</priceRange>
+        <date>
+            <year>2020</year>
+            <month>January</month>
+            <day>10</day>
+        </date>
+
+        <!-- review -->
+        <review>
+            <reviewer>Hunter S. Thompson</reviewer>
+            <summary>
+                Giovanni's Italia Fine Dinning is a completely restored Victorian stone house and offers a warm and elegant atmosphere and gracious service. 
+            </summary>
+        </review>
+
+        <!-- menu information -->
+        <menu>
+            <!-- appetizers -->
+            <appetizers>
+                <items>
+                    <item>
+                        <name></name>
+                        <description></description>
+                        <price></price>
+                    </item>
+                </items>
+            </appetizers>
+            <!-- entrees -->
+            <entrees>
+                <items>
+                    <item>
+                        <name></name>
+                        <description></description>
+                        <price></price>
+                    </item>
+                </items>
+            </entrees>
+        </menu>
 
     </restaurant>
 
