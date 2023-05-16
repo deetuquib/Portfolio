@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<BookOrders xmlns ="http://www.algonquincollege.com/onlinestore"
+			    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			    xsi:schemaLocation="http://www.algonquincollege.com/onlinestore BookOrder.xsd">
+  
+	<Order>
+		<Customer>
+        <CustomerContact>
+			      <Name>
+              <First>Wei</First>
+              
+            </Name>
+            <Email>gongw@algonquincollege.com</Email>
+            <Phone type="Mobile">612 2617355</Phone>
+            <Street>193 Walden Drive</Street>
+            <City>Kanata</City>
+            <Province>ON</Province>
+          <PostalCode>K2K2K7</PostalCode>
+        </CustomerContact>
+			  <ShippingAddress >
+          <Name>
+            <First>Wei</First>
+            <Last>Gong</Last>
+          </Name>
+				  <Street>193 Walden Drive</Street>
+				  <City>Kanata</City>
+				  <Province>ON</Province>
+          <PostalCode>K2K2K7</PostalCode>
+		    </ShippingAddress >
+        <BillingInfo>
+          <CreditCardNumber>1234567890123456</CreditCardNumber>
+          <CreditCardExpiryMonth>--05</CreditCardExpiryMonth>
+          <CreditCardExpiryYear>2012</CreditCardExpiryYear>
+          <Name>
+            <First>Wei</First>
+            <Last>Gong</Last>
+          </Name>
+          <Street>193 Walden Drive</Street>
+          <City>Kanata</City>
+          <Province>ON</Province>
+          <PostalCode>K2K2K7</PostalCode>
+        </BillingInfo >
+		  </Customer>
+		<Items>
+			<Item>
+				<Title>PHP Web Application Development</Title>
+        <Isbn>1234567</Isbn>
+        <FirstAuthor>
+          <First>John</First>
+          <Last>Smith</Last>
+        </FirstAuthor>
+				<Quantity>1</Quantity>
+		  </Item>
+		</Items>
+	</Order>
+</BookOrders>
+

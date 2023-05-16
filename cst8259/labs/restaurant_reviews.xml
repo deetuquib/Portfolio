@@ -10,6 +10,16 @@
         - find restaurants with the highest rating or above certain ratings
         - list menu items
 
+
+    TODO:
+    
+    
+
+    DONE:
+    - edit items to menuItems and add attribute appetizer
+    - remove twelvePieces tag and add attribute pieces for egg roll price quantity
+    - add logo xmlns for url
+
 -->
 
 <restaurants>
@@ -38,8 +48,7 @@
         <!-- restaurant information -->
         <name></name>
         <website></website>
-        <logo>
-            <url></url>
+        <logo xmnls="">
             <altText></altText>
             <dimensions>
                 <width></width>
@@ -76,25 +85,17 @@
         <!-- menu information -->
         <menu>
             <!-- appetizers -->
-            <appetizers>
-                <items>
-                    <item>
-                        <name></name>
-                        <description></description>
-                        <price></price>
-                    </item>
-                </items>
-            </appetizers>
+            <menuItem type="appetizer">
+                <name></name>
+                    <description></description>
+                    <price></price>
+            </menuItem>
             <!-- entrees -->
-            <entrees>
-                <items>
-                    <item>
-                        <name></name>
-                        <description></description>
-                        <price></price>
-                    </item>
-                </items>
-            </entrees>
+            <menuItem type="entree">
+                <name></name>
+                <description></description>
+                <price></price>
+            </menuItem>
         </menu>
 
     </restaurant>
@@ -108,11 +109,10 @@
         <!-- restaurant information -->
         <name>Giovanni's Italia Fine Dining</name>
         <website>www.giovannis.com</website>
-        <logo>
-            <url>www.giovannis.com/img/logo.gif</url>
+        <logo xmnls="www.giovannis.com/img/logo.gif">
             <altText>giovannis</altText>
             <dimensions>
-                <width>200</width>
+                <width unit="px">200</width>
                 <height>200</height>
             </dimensions>
         </logo>
@@ -128,7 +128,7 @@
         </phone>
 
         <!-- general information-->
-        <rating>4</rating>
+        <rating min="1" max="5">4</rating>
         <cuisine>Italian</cuisine>
         <priceRange>$$$$</priceRange>
         <date>
@@ -149,71 +149,63 @@
         <menu>
 
             <!-- appetizers -->
-            <appetizers>
-                <items>
-                    <item>
-                        <name>Crab Cakes</name>
-                        <description>
-                            With a creamy dill sauce served with crispy herbed fries
-                        </description>
-                        <price>23</price>
-                    </item>
-                    <item>
-                        <name>Garden Vegetable Soup with Chocolate Sauce</name>
-                        <description></description>
-                        <price>15</price>
-                    </item>
-                    <item>
-                        <name>Calamari Fritta</name>
-                        <description>
-                            Tender rings of squid, dusted in flour and lightly fried, served with sun-dried tomato aioli
-                        </description>
-                        <price>12.50</price>
-                    </item>
-                    <item>
-                        <name>Charcuterie Board</name>
-                        <description>
-                            Selection of cheeses and cured meats served with a variety of breads and crostinis
-                        </description>
-                        <price>20</price>
-                    </item>
-                </items>
-            </appetizers>
+            <menuItem type="appetizer">
+                <name>Crab Cakes</name>
+                <description>
+                    With a creamy dill sauce served with crispy herbed fries
+                </description>
+                <price>23</price>
+            </menuItem>
+            <menuItem type="appetizer">
+                <name>Garden Vegetable Soup with Chocolate Sauce</name>
+                <description></description>
+                <price>15</price>
+            </menuItem>
+            <menuItem type="appetizer">
+                <name>Calamari Fritta</name>
+                <description>
+                    Tender rings of squid, dusted in flour and lightly fried, served with sun-dried tomato aioli
+                </description>
+                <price>12.50</price>
+            </menuItem>
+            <menuItem type="appetizer">
+                <name>Charcuterie Board</name>
+                <description>
+                    Selection of cheeses and cured meats served with a variety of breads and crostinis
+                </description>
+                <price>20</price>
+            </menuItem>
 
             <!-- entrees -->
-            <entrees>
-                <items>
-                    <item>
-                        <name>House Specialty</name>
-                        <description>
-                            Pan seared chicken supreme with a sun-dried tomato pistachio pesto cream sauce, served with roasted potatoes and seasonal vegetables.
-                        </description>
-                        <price>28</price>
-                    </item>
-                    <item>
-                        <name>Braised Jumbo Sea Scallops on a Sun-dried Roast Tomato</name>
-                        <description></description>
-                        <price>39</price>
-                    </item>
-                    <item>
-                        <name>Free-range Chicken Breast Stuffed with Morels in a Brandy Sauce</name>
-                        <description></description>
-                        <price>31</price>
-                    </item>
-                    <item>
-                        <name>Eggplant Pamigiana</name>
-                        <description>
-                            Fresh eggplant, thinly sliced and breaded, topped with tomato sauce and mozzarella cheese, baked golden brown. Served with linguine in tomato sauce.
-                        </description>
-                        <price>30</price>
-                    </item>
-                    <item>
-                        <name>Roast Pork Loin on a Bed of Garlic Ginger Apple Slaw</name>
-                        <description></description>
-                        <price>34</price>
-                    </item>
-                </items>
-            </entrees>
+            <menuItem type="entree">
+                <name>House Specialty</name>
+                <description>
+                    Pan seared chicken supreme with a sun-dried tomato pistachio pesto cream sauce, served with roasted potatoes and seasonal vegetables.
+                </description>
+                <price>28</price>
+            </menuItem>
+            <menuItem type="entree">
+                <name>Braised Jumbo Sea Scallops on a Sun-dried Roast Tomato</name>
+                <description></description>
+                <price>39</price>
+            </menuItem>
+            <menuItem type="entree">
+                <name>Free-range Chicken Breast Stuffed with Morels in a Brandy Sauce</name>
+                <description></description>
+                <price>31</price>
+            </menuItem>
+            <menuItem type="entree">
+                <name>Eggplant Pamigiana</name>
+                <description>
+                    Fresh eggplant, thinly sliced and breaded, topped with tomato sauce and mozzarella cheese, baked golden brown. Served with linguine in tomato sauce.
+                </description>
+                <price>30</price>
+            </menuItem>
+            <menuItem type="entree">
+                <name>Roast Pork Loin on a Bed of Garlic Ginger Apple Slaw</name>
+                <description></description>
+                <price>34</price>
+            </menuItem>
         </menu>
 
     </restaurant>
@@ -227,11 +219,10 @@
         <!-- restaurant information -->
         <name>Gong's Asian Cuisine</name>
         <website>www.asiancuisine.com</website>
-        <logo>
-            <url>www.asiancuisine.com/resouce/images/cuisine.jpg</url>
+        <logo xmnls="www.asiancuisine.com/resouce/images/cuisine.jpg">
             <altText>gong's cuisine</altText>
             <dimensions>
-                <width>250</width>
+                <width unit="px">250</width>
                 <height>250</height>
             </dimensions>
         </logo>
@@ -247,7 +238,7 @@
         </phone>
 
         <!-- general information-->
-        <rating>5</rating>
+        <rating min="1" max="5">5</rating>
         <cuisine>Asian</cuisine>
         <priceRange>$</priceRange>
         <date>
@@ -266,66 +257,56 @@
 
         <!-- menu information -->
         <menu>
+
             <!-- appetizers -->
-            <appetizers>
-                <items>
-                    <item>
-                        <name>Egg Roll</name>
-                        <price>
-                            <singlePiece>1.50</singlePiece>
-                            <twelvePieces>15</twelvePieces>
-                        </price>
-                    </item>
-                    <item>
-                        <name>Spring Roll</name>
-                        <price>
-                            <singlePiece>1.90</singlePiece>
-                            <twelvePieces>20</twelvePieces>
-                        </price>
-                    </item>
-                    <item>
-                        <name>Shrimp Chips</name>
-                        <price>2.50</price>
-                    </item>
-                    <item>
-                        <name>Fried Noodles</name>
-                        <price>1</price>
-                    </item>
-                    <item>
-                        <name>Sweet and Sour Fried Wonton Skin</name>
-                        <price><twelvePieces>3.50</twelvePieces></price>
-                    </item>
-                </items>
-            </appetizers>
+            <menuItem>
+                <name>Egg Roll</name>
+                <price quantity="1">1.50</price>
+                <price quantity="12">15</price>
+            </menuItem>
+            <menuItem type="appetizer">
+                <name>Spring Roll</name>
+                <price quantity="1">1.90</price>
+                <price quantity="12">20</price>
+            </menuItem>
+            <menuItem type="appetizer">
+                <name>Shrimp Chips</name>
+                <price>2.50</price>
+            </menuItem>
+            <menuItem type="appetizer">
+                <name>Fried Noodles</name>
+                <price>1</price>
+            </menuItem>
+            <menuItem type="appetizer">
+                <name>Sweet and Sour Fried Wonton Skin</name>
+                <price quantity="12">3.50</price>
+            </menuItem>
+
             <!-- entrees -->
-            <entrees>
-                <items>
-                    <item>
-                        <name>Scallops with vegetables</name>
-                        <price>14.95</price>
-                    </item>
-                    <item>
-                        <name>Sweet and Sour Fish Cantonese Style</name>
-                        <price>13.95</price>
-                    </item>
-                    <item>
-                        <name>Shrimps with Vegetables</name>
-                        <price>12.95</price>
-                    </item>
-                    <item>
-                        <name>Beef with Mushroom</name>
-                        <price>12.25</price>
-                    </item>
-                    <item>
-                        <name>Beef with Tomato</name>
-                        <price>10.25</price>
-                    </item>
-                    <item>
-                        <name>Beef with Broccoli</name>
-                        <price>9.25</price>
-                    </item>
-                </items>
-            </entrees>
+            <menuItem type="entree">
+                <name>Scallops with vegetables</name>
+                <price>14.95</price>
+            </menuItem>
+            <menuItem type="entree">
+                <name>Sweet and Sour Fish Cantonese Style</name>
+                <price>13.95</price>
+            </menuItem>
+            <menuItem type="entree">
+                <name>Shrimps with Vegetables</name>
+                <price>12.95</price>
+            </menuItem>
+            <menuItem type="entree">
+                <name>Beef with Mushroom</name>
+                <price>12.25</price>
+            </menuItem>
+            <menuItem type="entree">
+                <name>Beef with Tomato</name>
+                <price>10.25</price>
+            </menuItem>
+            <menuItem type="entree">
+                <name>Beef with Broccoli</name>
+                <price>9.25</price>
+            </menuItem>
         </menu>
 
     </restaurant>
@@ -338,11 +319,10 @@
         <!-- restaurant information -->
         <name>Baker Street TexMex Grill</name>
         <website>www.texmaxgrill.com</website>
-        <logo>
-            <url>www.texmex.com/images/texmex.jpg</url>
+        <logo xmnls="www.texmex.com/images/texmex.jpg">
             <altText>baker street texmex grill</altText>
             <dimensions>
-                <width>150</width>
+                <width unit="px">150</width>
                 <height>150</height>
             </dimensions>
         </logo>
@@ -358,7 +338,7 @@
         </phone>
 
         <!-- general information-->
-        <rating>3</rating>
+        <rating min="1" max="5">3</rating>
         <cuisine>Mexican</cuisine>
         <priceRange>$$</priceRange>
         <date>
@@ -377,77 +357,71 @@
 
         <!-- menu information -->
         <menu>
+
             <!-- appetizers -->
-            <appetizers>
-                <items>
-                    <item>
-                        <name>Chips and Pico de Gallo</name>
-                        <description>
-                            Gluten friendly, vegan, vegetarian
-                        </description>
-                        <price>7.75</price>
-                    </item>
-                    <item>
-                        <name>Chips and Black Beans and Cheese</name>
-                        <description></description>
-                        <price>8.75</price>
-                    </item>
-                    <item>
-                        <name>Sopa de Tortilla</name>
-                        <description>
-                            Tomato-based soup topped with homemade tortilla strips, sour cream, cheese, and avocado
-                        </description>
-                        <price>6.75</price>
-                    </item>
-                    <item>
-                        <name>Consome de Pollo</name>
-                        <description>
-                            Chicken broth with rice, chickpeas, carrots, peas, and shredded chicken, served with cilantro, onion, avocado, and lime
-                        </description>
-                        <price>9.75</price>
-                    </item>
-                </items>
-            </appetizers>
+            <menuItem type="appetizer">
+                <name>Chips and Pico de Gallo</name>
+                <description>
+                    Gluten friendly, vegan, vegetarian
+                </description>
+                <price>7.75</price>
+            </menuItem>
+            <menuItem type="appetizer">
+                <name>Chips and Black Beans and Cheese</name>
+                <description></description>
+                <price>8.75</price>
+            </menuItem>
+            <menuItem type="appetizer">
+                <name>Sopa de Tortilla</name>
+                <description>
+                    Tomato-based soup topped with homemade tortilla strips, sour cream, cheese, and avocado
+                </description>
+                <price>6.75</price>
+            </menuItem>
+            <menuItem type="appetizer">
+                <name>Consome de Pollo</name>
+                <description>
+                    Chicken broth with rice, chickpeas, carrots, peas, and shredded chicken, served with cilantro, onion, avocado, and lime
+                </description>
+                <price>9.75</price>
+            </menuItem>
+
             <!-- entrees -->
-            <entrees>
-                <items>
-                    <item>
-                        <name>Burrito</name>
-                        <description>
-                            Ten-inch flour tortilla filled with black beans, rice, lettuce, cheese, pico de gallo, guacamole, and choice of protein
-                        </description>
-                        <price>10.50</price>
-                    </item>
-                    <item>
-                        <name>Burrito Combo</name>
-                        <description>
-                            Ten-inch flour tortilla filled with black beans, rice, lettuce, cheese, pico de gallo, guacamole, and choice of protein
-                        </description>
-                        <price>13.50</price>
-                    </item>
-                    <item>
-                        <name>Burrito Roja</name>
-                        <description>
-                            Ten-inch flour tortilla filled with Mexican rice, black beans, guacamole, and choice of protein. Bathed in Chilaquile's homemade salsa roja
-                        </description>
-                        <price></price>
-                    </item>
-                    <item>
-                        <name>Enchiladas (3 pieces)</name>
-                        <description>
-                            Gluten friendly. Lightly sauteed corn tortillas, choice of filling, covered in Chilaquile's homemade salsa verde or salsa roja, topped with onions, 
-                        </description>
-                        <price>18.50</price>
-                    </item>
-                    <item>
-                        <name>Enchiladas de Mole (3 pieces)</name>
-                        <description>
-                            Gluten friendly. Lightly sauteed corn tortillas, choice of filling, covered in mole sauce, topped with onions, sour cream, and crumbled cheese
-                        </description>
-                        <price>20.50</price>
-                    </item>
-                </items>
-            </entrees>
+            <menuItem type="entree">
+                <name>Burrito</name>
+                <description>
+                    Ten-inch flour tortilla filled with black beans, rice, lettuce, cheese, pico de gallo, guacamole, and choice of protein
+                </description>
+                <price>10.50</price>
+            </menuItem>
+            <menuItem type="entree">
+                <name>Burrito Combo</name>
+                <description>
+                    Ten-inch flour tortilla filled with black beans, rice, lettuce, cheese, pico de gallo, guacamole, and choice of protein
+                </description>
+                <price>13.50</price>
+            </menuItem>
+            <menuItem type="entree">
+                <name>Burrito Roja</name>
+                <description>
+                    Ten-inch flour tortilla filled with Mexican rice, black beans, guacamole, and choice of protein. Bathed in Chilaquile's homemade salsa roja
+                </description>
+                <price></price>
+            </menuItem>
+            <menuItem type="entree">
+                <name>Enchiladas (3 pieces)</name>
+                <description>
+                    Gluten friendly. Lightly sauteed corn tortillas, choice of filling, covered in Chilaquile's homemade salsa verde or salsa roja, topped with onions, 
+                </description>
+                <price quantity="3">18.50</price>
+            </menuItem>
+            <menuItem type="entree">
+                <name>Enchiladas de Mole (3 pieces)</name>
+                <description>
+                    Gluten friendly. Lightly sauteed corn tortillas, choice of filling, covered in mole sauce, topped with onions, sour cream, and crumbled cheese
+                </description>
+                <price quantity="3">20.50</price>
+            </menuItem>
         </menu>
 
     </restaurant>
