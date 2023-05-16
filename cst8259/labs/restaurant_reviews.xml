@@ -368,8 +368,10 @@
 
         <!-- review -->
         <review>
-            <reviewer></reviewer>
-            <summary></summary>
+            <reviewer>Peter Jones</reviewer>
+            <summary>
+                My favorite restaurant in Ottawa. The family who owns it are very warm and lovely people. They are incredible at recognizing you when you come back. The burritos are super good. You can customize however you want (guac is included!). I especially love that there is cactus in the veggie mix; it is a small, special thing that sets this place apart from other Mexican spots downtown.
+            </summary>
         </review>
 
         <!-- menu information -->
@@ -378,9 +380,30 @@
             <appetizers>
                 <items>
                     <item>
-                        <name></name>
+                        <name>Chips and Pico de Gallo</name>
+                        <description>
+                            Gluten friendly, vegan, vegetarian
+                        </description>
+                        <price>7.75</price>
+                    </item>
+                    <item>
+                        <name>Chips and Black Beans and Cheese</name>
                         <description></description>
-                        <price></price>
+                        <price>8.75</price>
+                    </item>
+                    <item>
+                        <name>Sopa de Tortilla</name>
+                        <description>
+                            Tomato-based soup topped with homemade tortilla strips, sour cream, cheese, and avocado
+                        </description>
+                        <price>6.75</price>
+                    </item>
+                    <item>
+                        <name>Consome de Pollo</name>
+                        <description>
+                            Chicken broth with rice, chickpeas, carrots, peas, and shredded chicken, served with cilantro, onion, avocado, and lime
+                        </description>
+                        <price>9.75</price>
                     </item>
                 </items>
             </appetizers>
@@ -388,9 +411,39 @@
             <entrees>
                 <items>
                     <item>
-                        <name></name>
-                        <description></description>
+                        <name>Burrito</name>
+                        <description>
+                            Ten-inch flour tortilla filled with black beans, rice, lettuce, cheese, pico de gallo, guacamole, and choice of protein
+                        </description>
+                        <price>10.50</price>
+                    </item>
+                    <item>
+                        <name>Burrito Combo</name>
+                        <description>
+                            Ten-inch flour tortilla filled with black beans, rice, lettuce, cheese, pico de gallo, guacamole, and choice of protein
+                        </description>
+                        <price>13.50</price>
+                    </item>
+                    <item>
+                        <name>Burrito Roja</name>
+                        <description>
+                            Ten-inch flour tortilla filled with Mexican rice, black beans, guacamole, and choice of protein. Bathed in Chilaquile's homemade salsa roja
+                        </description>
                         <price></price>
+                    </item>
+                    <item>
+                        <name>Enchiladas (3 pieces)</name>
+                        <description>
+                            Gluten friendly. Lightly sauteed corn tortillas, choice of filling, covered in Chilaquile's homemade salsa verde or salsa roja, topped with onions, 
+                        </description>
+                        <price>18.50</price>
+                    </item>
+                    <item>
+                        <name>Enchiladas de Mole (3 pieces)</name>
+                        <description>
+                            Gluten friendly. Lightly sauteed corn tortillas, choice of filling, covered in mole sauce, topped with onions, sour cream, and crumbled cheese
+                        </description>
+                        <price>20.50</price>
                     </item>
                 </items>
             </entrees>
