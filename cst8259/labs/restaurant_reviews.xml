@@ -35,6 +35,194 @@
 
     <restaurant>
         <!-- restaurant information -->
+        <name></name>
+        <website></website>
+        <logo>
+            <url></url>
+            <altText></altText>
+            <dimensions>
+                <width></width>
+                <height></height>
+            </dimensions>
+        </logo>
+        <address><location>
+            <street></street>
+            <city></city>
+            <state></state>
+            <postalCode></postalCode>
+        </location></address>
+        <phone>
+            <number></number>
+            <areaCode></areaCode>
+        </phone>
+
+        <!-- general information-->
+        <rating></rating>
+        <cuisine></cuisine>
+        <priceRange></priceRange>
+        <date>
+            <year></year>
+            <month></month>
+            <day></day>
+        </date>
+
+        <!-- review -->
+        <review>
+            <reviewer></reviewer>
+            <summary></summary>
+        </review>
+
+        <!-- menu information -->
+        <menu>
+            <!-- appetizers -->
+            <appetizers>
+                <items>
+                    <item>
+                        <name></name>
+                        <description></description>
+                        <price></price>
+                    </item>
+                </items>
+            </appetizers>
+            <!-- entrees -->
+            <entrees>
+                <items>
+                    <item>
+                        <name></name>
+                        <description></description>
+                        <price></price>
+                    </item>
+                </items>
+            </entrees>
+        </menu>
+
+    </restaurant>
+
+
+
+
+
+    <!-- GIOVANNI'S ITALIA FINE DINING -->
+    <restaurant>
+        <!-- restaurant information -->
+        <name>Giovanni's Italia Fine Dining</name>
+        <website>www.giovannis.com</website>
+        <logo>
+            <url>www.giovannis.com/img/logo.gif</url>
+            <altText>giovannis</altText>
+            <dimensions>
+                <width>200</width>
+                <height>200</height>
+            </dimensions>
+        </logo>
+        <address><location>
+            <street>2100 Lakeview Road</street>
+            <city>Toronto</city>
+            <state>Ontario</state>
+            <postalCode>K1K 1K1</postalCode>
+        </location></address>
+        <phone>
+            <number>416-123-4567</number>
+            <areaCode>416</areaCode>
+        </phone>
+
+        <!-- general information-->
+        <rating>4</rating>
+        <cuisine>Italian</cuisine>
+        <priceRange>$$$$</priceRange>
+        <date>
+            <year>2020</year>
+            <month>January</month>
+            <day>10</day>
+        </date>
+
+        <!-- review -->
+        <review>
+            <reviewer>Hunter S. Thompson</reviewer>
+            <summary>
+                Giovanni's Italia Fine Dinning is a completely restored Victorian stone house and offers a warm and elegant atmosphere and gracious service. 
+            </summary>
+        </review>
+
+        <!-- menu information -->
+        <menu>
+
+            <!-- appetizers -->
+            <appetizers>
+                <items>
+                    <item>
+                        <name>Crab Cakes</name>
+                        <description>
+                            With a creamy dill sauce served with crispy herbed fries
+                        </description>
+                        <price>23</price>
+                    </item>
+                    <item>
+                        <name>Garden Vegetable Soup with Chocolate Sauce</name>
+                        <description></description>
+                        <price>15</price>
+                    </item>
+                    <item>
+                        <name>Calamari Fritta</name>
+                        <description>
+                            Tender rings of squid, dusted in flour and lightly fried, served with sun-dried tomato aioli
+                        </description>
+                        <price>12.50</price>
+                    </item>
+                    <item>
+                        <name>Charcuterie Board</name>
+                        <description>
+                            Selection of cheeses and cured meats served with a variety of breads and crostinis
+                        </description>
+                        <price>20</price>
+                    </item>
+                </items>
+            </appetizers>
+
+            <!-- entrees -->
+            <entrees>
+                <items>
+                    <item>
+                        <name>House Specialty</name>
+                        <description>
+                            Pan seared chicken supreme with a sun-dried tomato pistachio pesto cream sauce, served with roasted potatoes and seasonal vegetables.
+                        </description>
+                        <price>28</price>
+                    </item>
+                    <item>
+                        <name>Braised Jumbo Sea Scallops on a Sun-dried Roast Tomato</name>
+                        <description></description>
+                        <price>39</price>
+                    </item>
+                    <item>
+                        <name>Free-range Chicken Breast Stuffed with Morels in a Brandy Sauce</name>
+                        <description></description>
+                        <price>31</price>
+                    </item>
+                    <item>
+                        <name>Eggplant Pamigiana</name>
+                        <description>
+                            Fresh eggplant, thinly sliced and breaded, topped with tomato sauce and mozzarella cheese, baked golden brown. Served with linguine in tomato sauce.
+                        </description>
+                        <price>30</price>
+                    </item>
+                    <item>
+                        <name>Roast Pork Loin on a Bed of Garlic Ginger Apple Slaw</name>
+                        <description></description>
+                        <price>34</price>
+                    </item>
+                </items>
+            </entrees>
+        </menu>
+
+    </restaurant>
+
+
+
+
+
+<restaurant>
+        <!-- restaurant information -->
         <name> </name>
         <website></website>
         <logo>
@@ -100,46 +288,44 @@
 
 
 
-    <!-- GIOVANNI'S ITALIA FINE DINING -->
+
     <restaurant>
         <!-- restaurant information -->
-        <name>Giovanni's Italia Fine Dining</name>
-        <website>www.giovannis.com</website>
+        <name> </name>
+        <website></website>
         <logo>
-            <url>www.giovannis.com/img/logo.gif</url>
-            <altText>giovannis</altText>
+            <url></url>
+            <altText></altText>
             <dimensions>
-                <width>200</width>
-                <height>200</height>
+                <width></width>
+                <height></height>
             </dimensions>
         </logo>
         <address><location>
-            <street>2100 Lakeview Road</street>
-            <city>Toronto</city>
-            <state>Ontario</state>
-            <postalCode>K1K 1K1</postalCode>
+            <street></street>
+            <city></city>
+            <state></state>
+            <postalCode></postalCode>
         </location></address>
         <phone>
-            <number>416-123-4567</number>
-            <areaCode>416</areaCode>
+            <number></number>
+            <areaCode></areaCode>
         </phone>
 
         <!-- general information-->
-        <rating>4</rating>
-        <cuisine>Italian</cuisine>
-        <priceRange>$$$$</priceRange>
+        <rating></rating>
+        <cuisine></cuisine>
+        <priceRange></priceRange>
         <date>
-            <year>2020</year>
-            <month>January</month>
-            <day>10</day>
+            <year></year>
+            <month></month>
+            <day></day>
         </date>
 
         <!-- review -->
         <review>
-            <reviewer>Hunter S. Thompson</reviewer>
-            <summary>
-                Giovanni's Italia Fine Dinning is a completely restored Victorian stone house and offers a warm and elegant atmosphere and gracious service. 
-            </summary>
+            <reviewer></reviewer>
+            <summary></summary>
         </review>
 
         <!-- menu information -->
@@ -167,5 +353,4 @@
         </menu>
 
     </restaurant>
-
 </restaurants>
