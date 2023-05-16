@@ -13,6 +13,26 @@
 
 <restaurants>
 
+    <!-- price legend -->
+    <priceLegend>
+        <minimum><legendItem>
+            <symbol>$</symbol>
+            <meaning>Inexpensive</meaning>
+        </legendItem></minimum>
+        <legendItem>
+            <symbol>$$</symbol>
+            <meaning>Moderately expensive</meaning>
+        </legendItem>
+        <legendItem>
+            <symbol>$$$</symbol>
+            <meaning>Expensive</meaning>
+        </legendItem>
+        <maximum><legendItem>
+            <symbol>$$$$</symbol>
+            <meaning>Very Expensive</meaning>
+        </legendItem></maximum>
+  </priceLegend>
+
     <restaurant>
         <!-- restaurant information -->
         <name> </name>
@@ -30,10 +50,10 @@
         </phone>
         <rating></rating>
 
-        <!-- general food information-->
-        <cuisine></cuisine>
+        <!-- general information-->
         <rating></rating>
-
+        <cuisine></cuisine>
+        <pri
 
     </restaurant>
 
