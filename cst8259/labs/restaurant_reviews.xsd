@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns ="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.algonquincollege.com/cst8259/labs"
+		   elementFormDefault="qualified">
+
+    <!-- restaurants -->
+    <xs:element name="restaurants">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- restaurant -->
+    <xs:element name="restaurant">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="review"></xs:element>
+                <xs:element ref="menu"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+
+
+</xs:schema>
