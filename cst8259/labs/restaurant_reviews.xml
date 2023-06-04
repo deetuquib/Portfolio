@@ -46,8 +46,8 @@ LAB: 01
             <logo source="www.giovannis.com/img/logo.gif">
                 <altText>giovannis</altText>
                 <dimensions unit="px">
-                    <width>200</width>
                     <height>200</height>
+                    <width>200</width>
                 </dimensions>
             </logo>
             <address>
@@ -174,8 +174,8 @@ LAB: 01
         </generalInfo>
 
         <!-- review -->
-        <date>2020-12-03</date>
         <review>
+            <date>2020-12-03</date>
             <reviewer>Brenda P. Smith</reviewer>
             <summary>
                 The food is always consistent. A good variety of dim sum, sushi, Chinese and even Vietnamese dishes. The service is quick and the food is plentiful. We sat down last night and within seconds of turning in our first order, the plates were on the table! The teriyaki dishes had the right amount of sauce and weren't sickeningly sweet. The chicken, fish, and beef were perfectly cooked. The makirolls were neatly rolled, cut properly and seasoned well. Loved the General Tao chicken, the steamed BBQ pork buns, the eel sushi and the lovely eggplant. We will be going back again! I would highly recommend it. 

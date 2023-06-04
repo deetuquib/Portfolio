@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		   targetNamespace="http://www.algonquincollege.com/onlinestore"
+		   xmlns:alg ="http://www.algonquincollege.com/onlinestore"
+		   elementFormDefault="qualified" >
+	
+	<xs:element name="Restaurants">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="alg:Restaurant" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="Restaurant">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Name" type="xs:string" />
+                <xs:element name="Website" type="xs:string" />
+                <xs:element ref="alg:Logo" />
+                <xs:element ref="alg:Address" />
+                <xs:element name="Phone" type="xs:string" />
+                <xs:element ref="alg:Rating" />
+                <xs:element name="Food" type="xs:string" />
+                <xs:element ref="alg:Price" />
+                <xs:element name="Date" type="xs:string" />
+                <xs:element name="Reviewer" type="xs:string" />
+                <xs:element minOccurs="1" maxOccurs="unbounded" ref="alg:MenuItem" />
+                <xs:element name="Summary" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+    <xs:element name="Logo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="alg:Width" />
+                <xs:element ref="alg:Height" />
+                <xs:element name="Url" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+    <xs:element name="Width">
+		<xs:complexType>
+		  <xs:simpleContent>
+			<xs:extension base="xs:string">
+			  <xs:attribute name="unit" type="alg:UnitType"/>
+			</xs:extension>
+		  </xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+    <xs:element name="Height">
+		<xs:complexType>
+		  <xs:simpleContent>
+			<xs:extension base="xs:string">
+			  <xs:attribute name="unit" type="alg:UnitType"/>
+			</xs:extension>
+		  </xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+    <xs:simpleType name="UnitType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="px"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+    <xs:element name="Address">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Street" type="xs:string" />
+                <xs:element name="City" type="xs:string" />
+                <xs:element name="Province" type="alg:ProvinceType" />
+		        <xs:element name="PostalCode" type="alg:PostalCodeType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+    <xs:simpleType name ="PostalCodeType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z]\d[a-zA-Z](\s)?\d[a-zA-Z]\d"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+    <xs:simpleType name="ProvinceType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ON"/>
+			<xs:enumeration value="QC"/>
+			<xs:enumeration value="BC"/>
+			<xs:enumeration value="ALBT"/>
+			<xs:enumeration value="SK"/>
+			<xs:enumeration value="MB"/>
+			<xs:enumeration value="NL"/>
+			<xs:enumeration value="PEI"/>
+			<xs:enumeration value="NB"/>
+			<xs:enumeration value="NS"/>
+			<xs:enumeration value="NT"/>
+			<xs:enumeration value="NV"/>
+			<xs:enumeration value="YK"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+    <xs:element name="Rating">
+		<xs:complexType>
+		  <xs:simpleContent>
+			<xs:extension base="xs:int">
+				<xs:attribute name="min" type="xs:int"/>
+				<xs:attribute name="max" type="xs:int"/>
+			</xs:extension>
+		  </xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+	 <xs:element name="Price">
+		<xs:complexType>
+		  <xs:simpleContent>
+			<xs:extension base="xs:decimal">
+				<xs:attribute name="min" type="xs:decimal"/>
+				<xs:attribute name="max" type="xs:decimal"/>
+			</xs:extension>
+		  </xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="MenuItem">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ItemName" type="xs:string" />
+                <xs:element name="Description" type="xs:string" />
+				<xs:element ref="alg:PriceItem" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="type" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="PriceItem">
+		<xs:complexType>
+		  <xs:simpleContent>
+			<xs:extension base="xs:decimal">
+				<xs:attribute name="quantity" type="xs:int"/>
+			</xs:extension>
+		  </xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+
+</xs:schema>

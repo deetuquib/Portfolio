@@ -1,0 +1,225 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<Restaurants xmlns="http://www.algonquincollege.com/onlinestore">
+    <Restaurant>
+        <Name>Giovanni&apos;s Italia Fine Dinning</Name>
+        <Website>www.giovannis.com</Website>
+        <Logo>
+            <Width unit ="px">200</Width>
+            <Height unit ="px">200</Height>
+			<Url>www.gioviannis.com/img/logo.gif</Url>
+        </Logo>
+        <Address>
+            <Street>2100 Lakeview Road</Street>
+            <City>Toronto</City>
+            <Province>ON</Province>
+            <PostalCode>K1K 1K1</PostalCode>
+        </Address>
+        <Phone>416-123-4567</Phone>
+        <Rating min = "1" max = "5">4</Rating>
+        <Food>Italian</Food>
+        <Price min ="1" max = "4">4</Price>
+        <Date>2020-01-10</Date>
+        <Reviewer>Hunter S. Thompson</Reviewer>
+        <MenuItem type="appetizer">
+            <ItemName>Crab cakes</ItemName>
+            <Description>With a creamy dill sauce served with crispy herbed fries.</Description>
+            <PriceItem>23</PriceItem>
+        </MenuItem>
+        <MenuItem type="appetizer">
+            <ItemName>Garden vegetable soup with chocolate sauce</ItemName>
+            <Description></Description>
+            <PriceItem>15</PriceItem>
+        </MenuItem>
+        <MenuItem type="appetizer">
+            <ItemName>Calamari Fritta</ItemName>
+            <Description>Tender rings of squid, dusted in flour and lightly fried, served with sun-dried tomato aioli</Description>
+            <PriceItem>12.50</PriceItem>
+        </MenuItem>
+        <MenuItem type="appetizer">
+            <ItemName>Charcuterie Board</ItemName>
+            <Description>Selection of cheeses and cured meats served with a variety of breads and crostinis</Description>
+            <PriceItem>20.00</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>House Specialty</ItemName>
+            <Description>Pan seared chicken supreme with a sun-dried tomato pistachio pesto cream sauce, served with roasted potatoes and seasonal vegetables.</Description>
+            <PriceItem>28</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Braised jumbo sea scallops on a sun-dried roast tomato base.</ItemName>
+            <Description></Description>
+            <PriceItem>39</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Free-range chicken breast stuffed with morels in a brandy sauce.</ItemName>
+            <Description></Description>
+            <PriceItem>31</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Eggplant Pamigiana</ItemName>
+            <Description>Fresh eggplant, thinly sliced and breaded, topped with tomato sauce and mozzarella cheese, baked golden brown. Served with linguine in tomato sauce. </Description>
+            <PriceItem>30</PriceItem>
+        </MenuItem>
+         <MenuItem type="entree">
+            <ItemName>Roast pork loin on a bed of garlic ginger apple slaw.</ItemName>
+            <Description></Description>
+            <PriceItem>34</PriceItem>
+        </MenuItem>
+        <Summary>
+            Giovanni&apos;s Italia Fine Dinning is a completely restored Victorian stone house and
+            offers a warm and elegant atmosphere and gracious service. 
+        </Summary>
+    </Restaurant>
+       
+    <Restaurant>
+         <Name>Gong&apos;s Asian Cuisine</Name>
+         <Website>www.asiancuisine.com</Website>
+         <Logo>
+            <Width unit ="px">250</Width>
+            <Height unit ="px">250</Height>
+            <Url>www.asiancuisine.com/resouce/images/cuisine.jpg</Url>
+        </Logo>
+        <Address>
+            <Street>1385 Woodroffe Avenue</Street>
+            <City>Ottawa</City>
+            <Province>ON</Province>
+            <PostalCode>K2G 1V8</PostalCode>
+        </Address>
+        <Phone>613-727-4723</Phone>
+        <Rating min = "1" max = "5">5</Rating>
+        <Food>Asian</Food>
+        <Price min ="1" max = "4">1</Price>
+        <Date>2020-12-03</Date>
+        <Reviewer>Brenda P. Smith</Reviewer>
+        <MenuItem type="appetizer">
+            <ItemName>Eggroll</ItemName>
+            <Description></Description>
+            <PriceItem quantity ="12">15</PriceItem>
+            <PriceItem quantity ="1">1.50</PriceItem>
+        </MenuItem>
+        <MenuItem type="appetizer">
+            <ItemName>Springroll</ItemName>
+            <Description></Description>
+            <PriceItem quantity ="12">20</PriceItem>
+            <PriceItem quantity ="1">1.90</PriceItem>
+        </MenuItem>
+        <MenuItem type="appetizer">
+            <ItemName>Shrimp Chips</ItemName>
+            <Description></Description>
+            <PriceItem>2.50</PriceItem>
+        </MenuItem>
+        <MenuItem type="appetizer">
+            <ItemName>Fried Noodles</ItemName>
+            <Description></Description>
+            <PriceItem>1.00</PriceItem>
+        </MenuItem>
+        <MenuItem type="appetizer">
+            <ItemName>Sweet &amp; Sour Fried Wonton Skin</ItemName>
+            <Description></Description>
+            <PriceItem quantity ="12">3.50</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Scallops with Vegetables</ItemName>
+            <Description></Description>
+            <PriceItem>14.95</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Sweet and Sour Fish Cantonese Style</ItemName>
+            <Description></Description>
+            <PriceItem>13.95</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Shrimps with Vegetables</ItemName>
+            <Description></Description>
+            <PriceItem>12.95</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Beef with Mushroom</ItemName>
+            <Description></Description>
+            <PriceItem>12.25</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Beef with Tomato</ItemName>
+            <Description></Description>
+            <PriceItem>10.25</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Beef with Broccoli</ItemName>
+            <Description></Description>
+            <PriceItem>9.25</PriceItem>
+        </MenuItem>
+        <Summary>
+            The food is always consistent. A good variety of dim sum, sushi, Chinese and
+            even Vietnamese dishes. The service is quick and the food is plentiful. We sat
+            down last night and within seconds of turning in our first order, the plates were on
+            the table! The teriyaki dishes had the right amount of sauce and weren't
+            sickeningly sweet. The chicken, fish, and beef were perfectly cooked. The makirolls were neatly rolled, cut properly and seasoned well. Loved the General Tao 
+        </Summary>
+    </Restaurant>
+         
+    <Restaurant>
+        <Name>Baker Street TexMex Grill</Name>
+        <Website>www.texmaxgrill.com</Website>
+        <Logo>
+            <Width unit ="px">150</Width>
+            <Height unit ="px">150</Height>
+            <Url>www.texmex.com/images/texmex.jpg</Url>
+        </Logo>
+        <Address>
+            <Street>200 Baker Street</Street>
+            <City>Ottawa</City>
+            <Province>ON</Province>
+            <PostalCode>B1G 1V1</PostalCode>
+        </Address>
+        <Phone>613-333-4444</Phone>
+        <Rating min = "1" max = "5">3</Rating>
+        <Food>Mexican</Food>
+        <Price min ="1" max = "4">2</Price>
+        <Date>2021-01-03</Date>
+        <Reviewer>Peter Jones</Reviewer>
+        <MenuItem type="appetizer">
+            <ItemName>Chips and Pico De Gallo</ItemName>
+            <Description>Gluten friendly, vegan, vegetarian.</Description>
+            <PriceItem>7.75</PriceItem>
+        </MenuItem>
+        <MenuItem type="appetizer">
+            <ItemName>Chips and Black Beans and Cheese.</ItemName>
+            <Description></Description>
+            <PriceItem>8.75</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Burrito</ItemName>
+            <Description>Ten-inch flour tortilla filled with black beans, rice, lettuce, cheese, pico de gallo, guacamole, and choice of protein.</Description>
+            <PriceItem>10.50</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Burrito Combo</ItemName>
+            <Description>Ten-inch flour tortilla filled with black beans, rice, lettuce, cheese, pico de gallo, guacamole, and choice of protein.</Description>
+            <PriceItem>13.50</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Burrito Roja</ItemName>
+            <Description>Ten-inch flour tortilla filled with Mexican rice, black beans, guacamole, and choice of protein. Bathed in Chilaquile's homemade salsa roja.</Description>
+            <PriceItem>16.50</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Enchiladas</ItemName>
+            <Description>Gluten friendly. Lightly sauteed corn tortillas, choice of filling, covered in Chilaquile's homemade salsa verde or salsa roja, topped with onions.</Description>
+            <PriceItem quantity ="3">18.50</PriceItem>
+        </MenuItem>
+        <MenuItem type="entree">
+            <ItemName>Enchiladas de Mole</ItemName>
+            <Description>Gluten friendly. Lightly sauteed corn tortillas, choice of filling, covered in mole sauce, topped with onions, sour cream, and crumbled cheese.</Description>
+            <PriceItem quantity ="3">20.50</PriceItem>
+        </MenuItem>
+        <Summary>
+            My favorite restaurant in Ottawa. The family who owns it are very warm and
+            lovely people. They are incredible at recognizing you when you come back. The
+            burritos are super good. You can customize however you want (guac is included!).
+            I especially love that there is cactus in the veggie mix; it is a small, special thing
+            that sets this place apart from other Mexican spots downtown. 
+        </Summary>
+    </Restaurant>
+
+</Restaurants>
