@@ -1,0 +1,52 @@
+
+    <restaurant>
+    <!-- restaurant information -->
+    <name></name>
+    <website></website>
+    <logo source="">
+        <altText></altText>
+        <dimensions>
+            <width></width>
+            <height></height>
+        </dimensions>
+    </logo>
+    <address>
+        <street></street>
+        <city></city>
+        <state></state>
+        <postalCode></postalCode>
+    </address>
+    <phone>
+        <number></number>
+        <areaCode></areaCode>
+    </phone>
+
+    <!-- general information-->
+    <rating min="1" max="5"></rating>
+    <cuisine></cuisine>
+    <priceRange min="1" max="4"></priceRange>
+
+    <!-- review -->
+    <review>
+        <date>yyyy-mm-dd</date>
+        <reviewer></reviewer>
+        <summary></summary>
+    </review>
+
+    <!-- menu information -->
+    <menu>
+        <!-- appetizers -->
+        <menuItem type="appetizer">
+            <name></name>
+                <description></description>
+                <price></price>
+        </menuItem>
+        <!-- entrees -->
+        <menuItem type="entree">
+            <name></name>
+            <description></description>
+            <price></price>
+        </menuItem>
+    </menu>
+
+</restaurant>

@@ -1,0 +1,53 @@
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.exe
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.deps.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.runtimeconfig.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.runtimeconfig.dev.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderUtility.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderUtility.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.AssemblyInfoInputs.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.AssemblyInfo.cs
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.csproj.CopyComplete
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.pdb
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.exe
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.deps.json
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.runtimeconfig.json
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.runtimeconfig.dev.json
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.dll
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.pdb
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderUtility.dll
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderUtility.pdb
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.csproj.AssemblyReference.cache
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.AssemblyInfoInputs.cache
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.AssemblyInfo.cs
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.csproj.CoreCompileInputs.cache
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.csproj.CopyComplete
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.dll
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.pdb
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.genruntimeconfig.cache
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.exe
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.deps.json
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.runtimeconfig.json
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.runtimeconfig.dev.json
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.dll
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderDeserialization.pdb
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderUtility.dll
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\bin\Debug\netcoreapp3.1\BookOrderUtility.pdb
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.csproj.AssemblyReference.cache
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.AssemblyInfoInputs.cache
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.AssemblyInfo.cs
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.csproj.CoreCompileInputs.cache
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.csproj.CopyComplete
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.dll
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.pdb
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderDeserialization\obj\Debug\netcoreapp3.1\BookOrderDeserialization.genruntimeconfig.cache

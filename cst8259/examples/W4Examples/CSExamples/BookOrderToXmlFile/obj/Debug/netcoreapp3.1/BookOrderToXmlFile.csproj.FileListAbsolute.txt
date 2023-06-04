@@ -1,0 +1,34 @@
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.AssemblyInfoInputs.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.AssemblyInfo.cs
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderToXmlFile.exe
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderToXmlFile.deps.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderToXmlFile.runtimeconfig.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderToXmlFile.runtimeconfig.dev.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderToXmlFile.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderToXmlFile.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderUtility.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderUtility.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.csproj.CopyComplete
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.pdb
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderToXmlFile.exe
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderToXmlFile.deps.json
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderToXmlFile.runtimeconfig.json
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderToXmlFile.runtimeconfig.dev.json
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderToXmlFile.dll
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderToXmlFile.pdb
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderUtility.dll
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\bin\Debug\netcoreapp3.1\BookOrderUtility.pdb
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.csproj.AssemblyReference.cache
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.AssemblyInfoInputs.cache
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.AssemblyInfo.cs
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.csproj.CoreCompileInputs.cache
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.csproj.CopyComplete
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.dll
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.pdb
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderToXmlFile\obj\Debug\netcoreapp3.1\BookOrderToXmlFile.genruntimeconfig.cache

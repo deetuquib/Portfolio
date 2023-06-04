@@ -1,0 +1,10 @@
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXmlReader\bin\Debug\netcoreapp3.1\BookOrderXmlReader.exe
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXmlReader\bin\Debug\netcoreapp3.1\BookOrderXmlReader.deps.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXmlReader\bin\Debug\netcoreapp3.1\BookOrderXmlReader.runtimeconfig.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXmlReader\bin\Debug\netcoreapp3.1\BookOrderXmlReader.runtimeconfig.dev.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXmlReader\bin\Debug\netcoreapp3.1\BookOrderXmlReader.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXmlReader\bin\Debug\netcoreapp3.1\BookOrderXmlReader.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXmlReader\obj\Debug\netcoreapp3.1\BookOrderXmlReader.AssemblyInfoInputs.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXmlReader\obj\Debug\netcoreapp3.1\BookOrderXmlReader.AssemblyInfo.cs
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXmlReader\obj\Debug\netcoreapp3.1\BookOrderXmlReader.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXmlReader\obj\Debug\netcoreapp3.1\BookOrderXmlReader.pdb

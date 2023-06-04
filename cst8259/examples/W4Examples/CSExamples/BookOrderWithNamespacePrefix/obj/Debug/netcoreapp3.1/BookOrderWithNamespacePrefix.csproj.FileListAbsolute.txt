@@ -1,0 +1,16 @@
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\bin\Debug\netcoreapp3.1\BookOrderWithNamespacePrefix.exe
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\bin\Debug\netcoreapp3.1\BookOrderWithNamespacePrefix.deps.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\bin\Debug\netcoreapp3.1\BookOrderWithNamespacePrefix.runtimeconfig.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\bin\Debug\netcoreapp3.1\BookOrderWithNamespacePrefix.runtimeconfig.dev.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\bin\Debug\netcoreapp3.1\BookOrderWithNamespacePrefix.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\bin\Debug\netcoreapp3.1\BookOrderWithNamespacePrefix.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\bin\Debug\netcoreapp3.1\BookOrderUtility.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\bin\Debug\netcoreapp3.1\BookOrderUtility.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\obj\Debug\netcoreapp3.1\BookOrderWithNamespacePrefix.csprojAssemblyReference.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\obj\Debug\netcoreapp3.1\BookOrderWithNamespacePrefix.AssemblyInfoInputs.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\obj\Debug\netcoreapp3.1\BookOrderWithNamespacePrefix.AssemblyInfo.cs
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\obj\Debug\netcoreapp3.1\BookOrderWithNamespacePrefix.csproj.CopyComplete
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\obj\Debug\netcoreapp3.1\BookOrderWithNamespacePrefix.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNamespacePrefix\obj\Debug\netcoreapp3.1\BookOrderWithNamespacePrefix.pdb

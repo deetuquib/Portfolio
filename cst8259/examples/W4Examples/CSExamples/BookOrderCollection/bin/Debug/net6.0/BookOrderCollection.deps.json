@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BookOrderCollection/1.0.0": {
+        "dependencies": {
+          "BookOrderBusinessEntity": "1.0.0",
+          "BookOrderUtility": "1.0.0"
+        },
+        "runtime": {
+          "BookOrderCollection.dll": {}
+        }
+      },
+      "BookOrderBusinessEntity/1.0.0": {
+        "runtime": {
+          "BookOrderBusinessEntity.dll": {}
+        }
+      },
+      "BookOrderUtility/1.0.0": {
+        "dependencies": {
+          "BookOrderBusinessEntity": "1.0.0"
+        },
+        "runtime": {
+          "BookOrderUtility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BookOrderCollection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookOrderBusinessEntity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookOrderUtility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

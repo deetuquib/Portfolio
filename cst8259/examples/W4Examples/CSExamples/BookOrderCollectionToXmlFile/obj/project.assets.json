@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "BookOrderBusinessEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BookOrderBusinessEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookOrderBusinessEntity.dll": {}
+        }
+      },
+      "BookOrderUtility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BookOrderBusinessEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BookOrderUtility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookOrderUtility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BookOrderBusinessEntity/1.0.0": {
+      "type": "project",
+      "path": "../BookOrderBusinessEntity/BookOrderBusinessEntity.csproj",
+      "msbuildProject": "../BookOrderBusinessEntity/BookOrderBusinessEntity.csproj"
+    },
+    "BookOrderUtility/1.0.0": {
+      "type": "project",
+      "path": "../BookOrderUtility/BookOrderUtility.csproj",
+      "msbuildProject": "../BookOrderUtility/BookOrderUtility.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "BookOrderBusinessEntity >= 1.0.0",
+      "BookOrderUtility >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\wei_g\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\OneD\\OneDrive\\Alg\\23W\\CST8259\\Week 3 - 4\\CSExamples\\BookOrderCollectionToXmlFile\\BookOrderCollectionToXmlFile.csproj",
+      "projectName": "BookOrderCollectionToXmlFile",
+      "projectPath": "C:\\OneD\\OneDrive\\Alg\\23W\\CST8259\\Week 3 - 4\\CSExamples\\BookOrderCollectionToXmlFile\\BookOrderCollectionToXmlFile.csproj",
+      "packagesPath": "C:\\Users\\wei_g\\.nuget\\packages\\",
+      "outputPath": "C:\\OneD\\OneDrive\\Alg\\23W\\CST8259\\Week 3 - 4\\CSExamples\\BookOrderCollectionToXmlFile\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\wei_g\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\OneD\\OneDrive\\Alg\\23W\\CST8259\\Week 3 - 4\\CSExamples\\BookOrderBusinessEntity\\BookOrderBusinessEntity.csproj": {
+              "projectPath": "C:\\OneD\\OneDrive\\Alg\\23W\\CST8259\\Week 3 - 4\\CSExamples\\BookOrderBusinessEntity\\BookOrderBusinessEntity.csproj"
+            },
+            "C:\\OneD\\OneDrive\\Alg\\23W\\CST8259\\Week 3 - 4\\CSExamples\\BookOrderUtility\\BookOrderUtility.csproj": {
+              "projectPath": "C:\\OneD\\OneDrive\\Alg\\23W\\CST8259\\Week 3 - 4\\CSExamples\\BookOrderUtility\\BookOrderUtility.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

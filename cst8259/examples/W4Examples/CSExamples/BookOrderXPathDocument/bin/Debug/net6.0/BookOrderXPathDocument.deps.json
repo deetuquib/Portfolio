@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BookOrderXPathDocument/1.0.0": {
+        "runtime": {
+          "BookOrderXPathDocument.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BookOrderXPathDocument/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

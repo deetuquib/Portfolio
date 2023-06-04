@@ -1,0 +1,16 @@
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\bin\Debug\netcoreapp3.1\BookOrderCollectionDeserialization.exe
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\bin\Debug\netcoreapp3.1\BookOrderCollectionDeserialization.deps.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\bin\Debug\netcoreapp3.1\BookOrderCollectionDeserialization.runtimeconfig.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\bin\Debug\netcoreapp3.1\BookOrderCollectionDeserialization.runtimeconfig.dev.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\bin\Debug\netcoreapp3.1\BookOrderCollectionDeserialization.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\bin\Debug\netcoreapp3.1\BookOrderCollectionDeserialization.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\bin\Debug\netcoreapp3.1\BookOrderUtility.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\bin\Debug\netcoreapp3.1\BookOrderUtility.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\obj\Debug\netcoreapp3.1\BookOrderCollectionDeserialization.csprojAssemblyReference.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\obj\Debug\netcoreapp3.1\BookOrderCollectionDeserialization.AssemblyInfoInputs.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\obj\Debug\netcoreapp3.1\BookOrderCollectionDeserialization.AssemblyInfo.cs
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\obj\Debug\netcoreapp3.1\BookOrderCollectionDeserialization.csproj.CopyComplete
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\obj\Debug\netcoreapp3.1\BookOrderCollectionDeserialization.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderCollectionDeserialization\obj\Debug\netcoreapp3.1\BookOrderCollectionDeserialization.pdb

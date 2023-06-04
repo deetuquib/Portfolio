@@ -1,0 +1,5 @@
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderBusinessEntity.NetStandart\bin\Debug\BookOrderBusinessEntity.NetStandart.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderBusinessEntity.NetStandart\bin\Debug\BookOrderBusinessEntity.NetStandart.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderBusinessEntity.NetStandart\obj\Debug\BookOrderBusinessEntity.NetStandart.csprojAssemblyReference.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderBusinessEntity.NetStandart\obj\Debug\BookOrderBusinessEntity.NetStandart.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderBusinessEntity.NetStandart\obj\Debug\BookOrderBusinessEntity.NetStandart.pdb

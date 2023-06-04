@@ -1,0 +1,10 @@
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXPathDocument\bin\Debug\netcoreapp3.1\BookOrderXPathDocument.exe
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXPathDocument\bin\Debug\netcoreapp3.1\BookOrderXPathDocument.deps.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXPathDocument\bin\Debug\netcoreapp3.1\BookOrderXPathDocument.runtimeconfig.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXPathDocument\bin\Debug\netcoreapp3.1\BookOrderXPathDocument.runtimeconfig.dev.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXPathDocument\bin\Debug\netcoreapp3.1\BookOrderXPathDocument.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXPathDocument\bin\Debug\netcoreapp3.1\BookOrderXPathDocument.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXPathDocument\obj\Debug\netcoreapp3.1\BookOrderXPathDocument.AssemblyInfoInputs.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXPathDocument\obj\Debug\netcoreapp3.1\BookOrderXPathDocument.AssemblyInfo.cs
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXPathDocument\obj\Debug\netcoreapp3.1\BookOrderXPathDocument.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderXPathDocument\obj\Debug\netcoreapp3.1\BookOrderXPathDocument.pdb

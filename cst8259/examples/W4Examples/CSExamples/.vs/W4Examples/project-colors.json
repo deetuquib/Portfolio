@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "330d01d7-8163-4043-8895-d11e86e55040": {
+      "ProjectGuid": "330d01d7-8163-4043-8895-d11e86e55040",
+      "DisplayName": "BookOrderService",
+      "ColorIndex": 0
+    },
+    "9fb95252-2b57-433d-99dc-5e50401cdbf6": {
+      "ProjectGuid": "9fb95252-2b57-433d-99dc-5e50401cdbf6",
+      "DisplayName": "BookOrderToXmlFile",
+      "ColorIndex": 1
+    },
+    "1ee942f6-ee04-48e8-8227-ecef81d2541f": {
+      "ProjectGuid": "1ee942f6-ee04-48e8-8227-ecef81d2541f",
+      "DisplayName": "BookOrderUtility",
+      "ColorIndex": 2
+    },
+    "fb1b5ba0-e4b1-4dee-8723-f7d3373d57b1": {
+      "ProjectGuid": "fb1b5ba0-e4b1-4dee-8723-f7d3373d57b1",
+      "DisplayName": "BookOrderBusinessEntity",
+      "ColorIndex": 3
+    },
+    "5705453c-5138-4e12-ac81-17b5ad78912a": {
+      "ProjectGuid": "5705453c-5138-4e12-ac81-17b5ad78912a",
+      "DisplayName": "BookOrderCollectionToXmlFile",
+      "ColorIndex": 4
+    },
+    "96805a3a-657a-44fa-b76b-9b1d7b104f9b": {
+      "ProjectGuid": "96805a3a-657a-44fa-b76b-9b1d7b104f9b",
+      "DisplayName": "BookOrderCollection",
+      "ColorIndex": 5
+    },
+    "677f8e38-02e3-449d-a895-300372910e44": {
+      "ProjectGuid": "677f8e38-02e3-449d-a895-300372910e44",
+      "DisplayName": "BookOrderXmlReader",
+      "ColorIndex": 6
+    },
+    "62a808b3-1e8e-49c9-b6ad-443e17f6fb5b": {
+      "ProjectGuid": "62a808b3-1e8e-49c9-b6ad-443e17f6fb5b",
+      "DisplayName": "BookOrderDeserialization",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}

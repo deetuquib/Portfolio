@@ -1,0 +1,42 @@
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\W2Examples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.deps.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\W2Examples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\W2Examples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\W2Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.AssemblyInfoInputs.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\W2Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.AssemblyInfo.cs
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\W2Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\W2Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.deps.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.csprojAssemblyReference.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.AssemblyInfoInputs.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.AssemblyInfo.cs
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\21W\CST8259\Week 4\W4Examples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.deps.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\21W\CST8259\Week 4\W4Examples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\21W\CST8259\Week 4\W4Examples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\21W\CST8259\Week 4\W4Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.csprojAssemblyReference.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\21W\CST8259\Week 4\W4Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.AssemblyInfoInputs.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\21W\CST8259\Week 4\W4Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.AssemblyInfo.cs
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\21W\CST8259\Week 4\W4Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.csproj.CoreCompileInputs.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\21W\CST8259\Week 4\W4Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\21W\CST8259\Week 4\W4Examples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.deps.json
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.GeneratedMSBuildEditorConfig.editorconfig
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.AssemblyInfoInputs.cache
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.AssemblyInfo.cs
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.csproj.CoreCompileInputs.cache
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\Personal\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.deps.json
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.GeneratedMSBuildEditorConfig.editorconfig
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.AssemblyInfoInputs.cache
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.AssemblyInfo.cs
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.csproj.CoreCompileInputs.cache
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneD\OneDrive\Alg\22W\CST8259\Week 4\CSExamples\BookOrderBusinessEntity\obj\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb

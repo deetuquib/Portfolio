@@ -1,0 +1,16 @@
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\bin\Debug\netcoreapp3.1\BookOrderWithNameSpace.exe
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\bin\Debug\netcoreapp3.1\BookOrderWithNameSpace.deps.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\bin\Debug\netcoreapp3.1\BookOrderWithNameSpace.runtimeconfig.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\bin\Debug\netcoreapp3.1\BookOrderWithNameSpace.runtimeconfig.dev.json
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\bin\Debug\netcoreapp3.1\BookOrderWithNameSpace.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\bin\Debug\netcoreapp3.1\BookOrderWithNameSpace.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\bin\Debug\netcoreapp3.1\BookOrderUtility.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\bin\Debug\netcoreapp3.1\BookOrderBusinessEntity.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\bin\Debug\netcoreapp3.1\BookOrderUtility.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\obj\Debug\netcoreapp3.1\BookOrderWithNameSpace.csprojAssemblyReference.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\obj\Debug\netcoreapp3.1\BookOrderWithNameSpace.AssemblyInfoInputs.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\obj\Debug\netcoreapp3.1\BookOrderWithNameSpace.AssemblyInfo.cs
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\obj\Debug\netcoreapp3.1\BookOrderWithNameSpace.csproj.CopyComplete
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\obj\Debug\netcoreapp3.1\BookOrderWithNameSpace.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 2\W2Examples\BookOrderWithNameSpace\obj\Debug\netcoreapp3.1\BookOrderWithNameSpace.pdb
