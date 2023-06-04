@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<schema xmlns ="http://www.w3.org/2001/XMLSchema"
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
         targetNamespace="http://www.algonquincollege.com/cst8259/labs"
-        xmlns:alg = "http://www.algonquincollege.com/cst8259/labs"
-		elementFormDefault="qualified">
+        xmlns:alg="http://www.algonquincollege.com/cst8259/labs"
+        elementFormDefault="qualified">
 
     <!-- i restaurants (root element)-->
     <element name="restaurants">
@@ -42,7 +42,7 @@
         </complexType>
     </element>
 
-                <!-- logo -->
+    <!-- logo -->
     <element name="logo">
         <complexType>
             <sequence>
@@ -59,19 +59,19 @@
         </complexType>
     </element>
 
-                <!-- address-->
-    <element name ="address">
+    <!-- address-->
+    <element name="address">
         <complexType>
             <sequence>
                 <element name="street" type="string"/>
                 <element name="city" type="string"/>
-                <element ref="province"/>
-                <element ref="postalCode" type="string"/>
+                <element ref="alg:province"/>
+                <element ref="alg:postalCode" type="string"/>
             </sequence>
         </complexType>
     </element>
 
-                <!-- address: province -->
+    <!-- address: province -->
     <element name="province">
         <simpleType>
             <restriction base="string">
@@ -92,7 +92,7 @@
         </simpleType>
     </element>
 
-                <!-- address: postalCode-->
+    <!-- address: postalCode-->
     <element name="postalCode">
         <simpleType>
             <restriction base="string">
@@ -101,7 +101,7 @@
         </simpleType>
     </element>
 
-                <!-- phone -->
+    <!-- phone -->
     <element name="phone">
         <complexType>
             <sequence>
@@ -127,7 +127,6 @@
     <element name="review">
         <complexType>
             <sequence>
-                <element minOccurs="1" maxOccurs="1"></element>
                 <element name="date" type="date"/>
                 <element name="reviewer" type="string"/>
                 <element name="summary" type="string"/>
@@ -144,7 +143,7 @@
         </complexType>
     </element>
 
-                <!-- menuItem -->
+    <!-- menuItem -->
     <element name="menuItem">
         <complexType>
             <sequence>
@@ -155,10 +154,8 @@
         </complexType>
     </element>
 
-
-
-
 </schema>
+
 
 
 
