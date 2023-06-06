@@ -1,137 +1,218 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 
-<schema xmlns ="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.algonquincollege.com/cst8259/labs"
-           xmlns:alg = "http://www.algonquincollege.com/cst8259/labs"
-		   elementFormDefault="qualified">
-
-    <!-- i restaurants -->
-    <element name="restaurants">
-        <complexType>
-            <sequence>
-                <element ref="alg:restaurant"/>
-            </sequence>
-        </complexType>
-    </element>
-
-    <!-- i.a restaurant -->
-    <element name="restaurant">
-        <complexType>
-            <sequence>
-                <element minOccurs="1" maxOccurs="unbounded"/>
-                <element ref="alg:generalInfo"/>
-                <element ref="alg:review"/>
-                <element ref="alg:menu"/>
-            </sequence>
-        </complexType>
-    </element>
-
-    <!-- i.a.1 generalInfo -->
-    <element name="generalInfo">
-        <complexType>
-            <sequence>
-                <element minOccurs="1" maxOccurs="1"></element>
-                <element name="name" type="string"/>
-                <element name="website" type="string"/>
-                <element ref="alg:logo"/>
-                <element ref="alg:address"/>
-                <element ref="alg:phone"/>
-                <element name="rating" type="int"/>
-                <element name="cuisine"/>
-                <element name="priceRange" type="int"/>
-            </sequence>
-        </complexType>
-    </element>
-
-                <!-- logo -->
-    <element name="logo">
-        <complexType>
-            <sequence>
-                <element name="altText" type="string"/>
-                <element name="dimensions">
-                    <complexType>
-                        <sequence>
-                            <element name="height" type="int"/>
-                            <element name="width" type="int"/>
-                        </sequence>
-                    </complexType>
-                </element>
-            </sequence>
-        </complexType>
-    </element>
-
-                <!-- address-->
-    <element name ="address">
-        <complexType>
-            <sequence>
-                <element name="street" type="string"/>
-                <element name="city" type="string"/>
-                <element ref="province"/>
-                <element ref="postalCode" type="string"/>
-            </sequence>
-        </complexType>
-    </element>
-
-                <!-- address: province -->
-    <simpleType>
-        <restriction base="string">
-            <enumeration value="ON"/>
-            <enumeration value="QC"/>
-            <enumeration value="BC"/>
-            <enumeration value="ALBT"/>
-            <enumeration value="SK"/>
-            <enumeration value="MB"/>
-            <enumeration value="NL"/>
-            <enumeration value="PEI"/>
-            <enumeration value="NB"/>
-            <enumeration value="NS"/>
-            <enumeration value="NT"/>
-            <enumeration value="NV"/>
-            <enumeration value="YK"/>
-        </restriction>
-    </simpleType>
-
-                <!-- address: postalCode-->
-    <simpleType name="postalCode">
-        <restriction base="string">
-            <pattern value="[a-zA-Z]\d[a-zA-Z](\s)?\d[a-zA-Z]\d"/>
-        </restriction>
-    </simpleType>
-
-                <!-- phone -->
-    <element name="phone">
-        <complexType>
-            <sequence>
-                <element name="areaCode" type="int"/>
-                <element name="dimensions" type="string"/>
-            </sequence>
-        </complexType>
-    </element>
-
-    <!-- i.a.2 review -->
-    <element name="review">
-        <complexType>
-            <sequence>
-                <element minOccurs="1" maxOccurs="1"></element>
-                <element ref="date"/>
-                <element ref="reviewer"/>
-                <element ref="summary"/>
-            </sequence>
-        </complexType>
-    </element>
-
-    <!-- i.a.3 menu -->
-    <element name="menu">
-        <complexType>
-            <sequence>
-                <element minOccurs="1" maxOccurs="1"></element>
-                <element ref="menuItem"/>
-            </sequence>
-        </complexType>
-    </element>
+<!--
+    1. The schema should target the following namespace: http://www.algonquincollege.com/cst8259/labs
+    2. Define the following elements:
+        - global element
+        - global element for use inside both appetizers and entrees
+        - global element "address" to be referenced in the schema
+        - simple type of string with the restriction of a regex pattern for postal code
+    3. Ensure there is no error message
+-->
 
 
+<xs:schema attributeFormDefault="unqualified"
+		   elementFormDefault="qualified"
+		   targetNamespace="http://www.algonquincollege.com/cst8259/labs"
+		   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		   xmlns:alg="http://www.algonquincollege.com/cst8259/labs">
+	
+    <!-- global element: restaurants -->
+	<xs:element name="restaurants">
+		<xs:complexType>
+			<xs:sequence>
 
+                <!-- restaurant -->
+				<xs:element maxOccurs="unbounded" name="restaurant">
+					<xs:complexType>
+						<xs:sequence>
 
+                            <!-- general info -->
+							<xs:element name="generalInfo">
+								<xs:complexType>
+									<xs:sequence>
+                                        <!-- name -->
+										<xs:element name="name" type="xs:string" />
+                                        <!-- website -->
+										<xs:element name="website" type="xs:string" />
+                                        <!-- logo -->
+										<xs:element name="logo">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="altText" type="xs:string" />
+                                                    <!-- dimensions -->
+													<xs:element name="dimensions">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:choice maxOccurs="unbounded">
+																	<xs:element name="height" type="xs:unsignedByte" />
+																	<xs:element name="width" type="xs:unsignedByte" />
+																</xs:choice>
+															</xs:sequence>
+															<xs:attribute name="unit" type="xs:string" use="required" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="source" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element ref="alg:address">
 
-</schema>
+                                        <!-- phone -->
+										</xs:element>
+										<xs:element name="phone">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="areaCode" type="xs:unsignedShort" />
+													<xs:element name="number" type="xs:string" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+
+                                        <!-- rating -->
+										<xs:element name="rating">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:unsignedByte">
+														<xs:attribute name="min" type="xs:unsignedByte" use="required" />
+														<xs:attribute name="max" type="xs:unsignedByte" use="required" />
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+
+                                        <!-- cuisine -->
+										<xs:element name="cuisine" type="xs:string" />
+
+                                        <!-- price range -->
+										<xs:element name="priceRange">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:unsignedByte">
+														<xs:attribute name="min" type="xs:unsignedByte" use="required" />
+														<xs:attribute name="max" type="xs:unsignedByte" use="required" />
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+                                        <!-- price range -->
+
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+                            <!-- end of general info -->
+
+                            <!-- review -->
+							<xs:element name="review">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="date" type="xs:date" />
+										<xs:element name="reviewer" type="xs:string" />
+										<xs:element name="summary" type="xs:string" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+
+                            <!-- menu -->
+							<xs:element name="menu">
+								<xs:complexType>
+									<xs:sequence>
+
+                                        <!-- menuItem -->
+										<xs:element maxOccurs="unbounded" name="menuItem">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:choice maxOccurs="unbounded">
+                                                        <!-- name -->
+														<xs:element name="name" type="xs:string" />
+                                                        <!-- description -->
+														<xs:element name="description" type="xs:string" />
+														<!-- price -->
+                                                        <xs:element maxOccurs="unbounded" name="price">
+															<xs:complexType>
+																<xs:simpleContent>
+																	<xs:extension base="xs:string">
+																		<xs:attribute name="quantity" type="xs:unsignedByte" use="optional" />
+																	</xs:extension>
+																</xs:simpleContent>
+															</xs:complexType>
+														</xs:element>
+													</xs:choice>
+												</xs:sequence>
+												<xs:attribute name="type" type="xs:string" use="optional" />
+											</xs:complexType>
+										</xs:element>
+                                        <!-- end of menuItem -->
+
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+                <!-- end of restaurant -->
+
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- global element: address -->
+	<xs:element name="address">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="street" type="xs:string"/>
+				<xs:element name="city" type="xs:string"/>
+				<xs:element name="state" type="alg:state"/>
+				<xs:element name="postalCode" type="alg:postalCode"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- global element: state  (simple type of string with restriction of CA provinces standard code)-->
+	<xs:simpleType name="state">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ON"/>
+			<xs:enumeration value="QC"/>
+			<xs:enumeration value="BC"/>
+			<xs:enumeration value="AB"/>
+			<xs:enumeration value="SK"/>
+			<xs:enumeration value="MB"/>
+			<xs:enumeration value="NL"/>
+			<xs:enumeration value="PE"/>
+			<xs:enumeration value="NB"/>
+			<xs:enumeration value="NS"/>
+			<xs:enumeration value="NT"/>
+			<xs:enumeration value="NV"/>
+			<xs:enumeration value="YK"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- global element: postalCode (simple type of string with regex restriction) -->
+	<xs:simpleType name="postalCode">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="^[a-zA-Z]\d[a-zA-Z][ -]?\d[a-zA-Z]\d$"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- global element: menuItem -->
+	<xs:element name="menuItem">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string" />
+				<xs:element name="description" type="xs:string" />
+					<xs:element name="price" maxOccurs="unbounded">
+						<xs:complexType>
+							<xs:simpleContent>
+								<xs:extension base="xs:decimal">
+									<xs:attribute name="quantity" type="xs:unsignedInt" />
+								</xs:extension>
+							</xs:simpleContent>
+						</xs:complexType>
+				</xs:element>
+		</xs:sequence>
+		<xs:attribute name="type" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>

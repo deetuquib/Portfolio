@@ -112,6 +112,7 @@
 		</xs:complexType>
 	</xs:element>
 
+	<!-- address -->
 	<xs:element name="address">
 		<xs:complexType>
 			<xs:sequence>
@@ -123,6 +124,7 @@
 		</xs:complexType>
 	</xs:element>
 
+	<!-- state -->
 	<xs:simpleType name="state">
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="ON"/>
@@ -141,12 +143,14 @@
 		</xs:restriction>
 	</xs:simpleType>
 
+	<!-- postalCode -->
 	<xs:simpleType name="postalCode">
 		<xs:restriction base="xs:string">
 			<xs:pattern value="^[a-zA-Z]\d[a-zA-Z][ -]?\d[a-zA-Z]\d$"/>
 		</xs:restriction>
 	</xs:simpleType>
 
+	<!-- menuItem -->
 	<xs:element name="menuItem">
 		<xs:complexType>
 			<xs:sequence>

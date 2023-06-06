@@ -174,8 +174,8 @@ LAB: 01
         </generalInfo>
 
         <!-- review -->
+        <date>2020-12-03</date> <!-- error -->
         <review>
-        <date>2020-12-03</date>
             <reviewer>Brenda P. Smith</reviewer>
             <summary>
                 The food is always consistent. A good variety of dim sum, sushi, Chinese and even Vietnamese dishes. The service is quick and the food is plentiful. We sat down last night and within seconds of turning in our first order, the plates were on the table! The teriyaki dishes had the right amount of sauce and weren't sickeningly sweet. The chicken, fish, and beef were perfectly cooked. The makirolls were neatly rolled, cut properly and seasoned well. Loved the General Tao chicken, the steamed BBQ pork buns, the eel sushi and the lovely eggplant. We will be going back again! I would highly recommend it. 
@@ -199,13 +199,11 @@ LAB: 01
                 <price quantity="12">20</price>
             </menuItem>
             <menuItem type="appetizer">
-                <description></description>
                 <name>Shrimp Chips</name>
                 <description></description>
                 <price>2.50</price>
             </menuItem>
             <menuItem type="appetizer">
-                <description></description>
                 <name>Fried Noodles</name>
                 <description></description>
                 <price>1</price>
@@ -343,7 +341,7 @@ LAB: 01
                 <description>
                     Ten-inch flour tortilla filled with Mexican rice, black beans, guacamole, and choice of protein. Bathed in Chilaquile's homemade salsa roja
                 </description>
-                <price></price>
+                <price>10.50</price>
             </menuItem>
             <menuItem type="entree">
                 <name>Enchiladas (3 pieces)</name>
