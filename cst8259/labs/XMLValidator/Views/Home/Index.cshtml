@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">XML Validator</h1>
+    <p>Welcome to XML Validator! Please upload your XML and Schema files to check the validity.</p><br />
+
+    <form asp-action="Index" asp-controller="Home">
+
+        <div class="row justify-content-start">
+
+            <!-- XML File -->
+            <div class="col-5 text-right mt-2">
+                    <label for="form-control" type="file">XML File:</label> <br />
+            </div> <div class="col-5 mt-2">
+                    <input class="form-control" name="XMLfile" type="file" accept=".xml" required /> <br />
+            </div>
+
+            <!-- XML File -->
+            <div class="col-5 text-right mt-2">
+                    <label for="form-control" type="file">XSD Schema File:</label><br />
+            </div> <div class="col-5 mt-2">
+                    <input class="form-control" name="XSDfile" type="file" accept=".xsd" required /><br />
+            </div>
+
+            <!-- Submit Button -->
+                <div class="col-5 mt-2"> <br /> </div>
+            <div class="col-5 mt-2">
+                    <input class="btn btn-primary" type="submit" value="Upload" />
+            </div>
+
+        </div>
+
+        
+
+    </form>
+
+</div>
