@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns ="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.algonquincollege.com/cst8259/labs"
+           xmlns:alg = "http://www.algonquincollege.com/cst8259/labs"
+		   elementFormDefault="qualified">
+
+    <!-- i restaurants -->
+    <element name="restaurants">
+        <complexType>
+            <sequence>
+                <element ref="alg:restaurant"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!-- i.a restaurant -->
+    <element name="restaurant">
+        <complexType>
+            <sequence>
+                <element minOccurs="1" maxOccurs="unbounded"/>
+                <element ref="alg:generalInfo"/>
+                <element ref="alg:review"/>
+                <element ref="alg:menu"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!-- i.a.1 generalInfo -->
+    <element name="generalInfo">
+        <complexType>
+            <sequence>
+                <element minOccurs="1" maxOccurs="1"></element>
+                <element name="name" type="string"/>
+                <element name="website" type="string"/>
+                <element ref="alg:logo"/>
+                <element ref="alg:address"/>
+                <element ref="alg:phone"/>
+                <element name="rating" type="int"/>
+                <element name="cuisine"/>
+                <element name="priceRange" type="int"/>
+            </sequence>
+        </complexType>
+    </element>
+
+                <!-- logo -->
+    <element name="logo">
+        <complexType>
+            <sequence>
+                <element name="altText" type="string"/>
+                <element name="dimensions">
+                    <complexType>
+                        <sequence>
+                            <element name="height" type="int"/>
+                            <element name="width" type="int"/>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+
+                <!-- address-->
+    <element name ="address">
+        <complexType>
+            <sequence>
+                <element name="street" type="string"/>
+                <element name="city" type="string"/>
+                <element ref="province"/>
+                <element ref="postalCode" type="string"/>
+            </sequence>
+        </complexType>
+    </element>
+
+                <!-- address: province -->
+    <simpleType>
+        <restriction base="string">
+            <enumeration value="ON"/>
+            <enumeration value="QC"/>
+            <enumeration value="BC"/>
+            <enumeration value="ALBT"/>
+            <enumeration value="SK"/>
+            <enumeration value="MB"/>
+            <enumeration value="NL"/>
+            <enumeration value="PEI"/>
+            <enumeration value="NB"/>
+            <enumeration value="NS"/>
+            <enumeration value="NT"/>
+            <enumeration value="NV"/>
+            <enumeration value="YK"/>
+        </restriction>
+    </simpleType>
+
+                <!-- address: postalCode-->
+    <simpleType name="postalCode">
+        <restriction base="string">
+            <pattern value="[a-zA-Z]\d[a-zA-Z](\s)?\d[a-zA-Z]\d"/>
+        </restriction>
+    </simpleType>
+
+                <!-- phone -->
+    <element name="phone">
+        <complexType>
+            <sequence>
+                <element name="areaCode" type="int"/>
+                <element name="dimensions" type="string"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!-- i.a.2 review -->
+    <element name="review">
+        <complexType>
+            <sequence>
+                <element minOccurs="1" maxOccurs="1"></element>
+                <element ref="date"/>
+                <element ref="reviewer"/>
+                <element ref="summary"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!-- i.a.3 menu -->
+    <element name="menu">
+        <complexType>
+            <sequence>
+                <element minOccurs="1" maxOccurs="1"></element>
+                <element ref="menuItem"/>
+            </sequence>
+        </complexType>
+    </element>
+
+
+
+
+
+</schema>
