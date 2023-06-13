@@ -1,0 +1,16 @@
+Slide 1
+Good afternoon everyone! We are the white team and today we will give a presentation on Meteor.js. Before we start, I'd like to introduce our team. We have Kevin Diez-Ocampo as our team leader and the rest of the team: Yohanes Hailegiorgis, Jordan Meade, Otavio Anacleto Pereira Barbosa, and me Diana Jean Caballero. Tuquib. Let's begin!
+
+Slide 2
+My team's objective for today is to help you understand what Meteor.js is, its components, and the framework. We will also discuss a bit about data synchronization, user account management, built-in testing, and advantages. All exciting stuff! For our demo, we will show you a tic-tac-toe game that our team, well mostly Kevin, built using Meteor.
+
+Slide 3
+Meteor.js is a comprehensive JavaScript framework that brings together a cohesive set of libraries and packages. It allows us to quickly build prototype applications and software.
+
+As you may already know, there are many JavaScript frameworks available. However, what sets Meteor apart from other frameworks, like Angular, is its ability to run on the front- and back-end. This makes Meteor very suitable for developing web and mobile applications.
+
+Another key feature of the Meteor framework is that it uses subscriptions instead of the traditional request-response model, which is commonly used in other JavaScript frameworks like Angular, React, etc.
+In Meteor, the clients subscribe to events on the server using a connection, so the server continuously sends updates. My teammates will elaborate more on that later, but what this means basically is that as soon as there are new changes on the server, the client immediately receives the updates.
+
+Slide 4
+Before my groupmates elaborate more on Meteor, let me just highlight the importance of client-side frameworks.

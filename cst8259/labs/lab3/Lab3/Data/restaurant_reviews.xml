@@ -2,7 +2,7 @@
 <restaurants xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.algonquincollege.com/cst8259/labs">
   <restaurant>
     <generalInfo>
-      <name>Giovanni's Italia Fine Dining edit</name>
+      <name>Giovanni's Italia Fine Dining</name>
       <website>www.giovannis.com</website>
       <logo source="www.giovannis.com/img/logo.gif">
         <altText>giovannis</altText>
@@ -13,7 +13,7 @@
       </logo>
       <address>
         <street>2100 Lakeview Road edit</street>
-        <city>Ottawa edit</city>
+        <city>Ottawa</city>
         <state>ON</state>
         <postalCode>K1K 1K1</postalCode>
       </address>
@@ -28,7 +28,7 @@
     <review>
       <date>2020-01-10</date>
       <reviewer>Hunter S. Thompson</reviewer>
-      <summary>                Giovanni's Italia Fine Dinning is a completely restored Victorian stone house and offers a warm and elegant atmosphere and gracious service.             </summary>
+      <summary>Giovanni's Italia Fine Dinning is a completely restored Victorian stone house and offers a warm and elegant atmosphere and gracious service.             </summary>
     </review>
     <menu>
       <menuItem type="appetizer">
@@ -116,9 +116,7 @@
     <review>
       <date>2020-12-03</date>
       <reviewer>Brenda P. Smith</reviewer>
-      <summary>
-                The food is always consistent. A good variety of dim sum, sushi, Chinese and even Vietnamese dishes. The service is quick and the food is plentiful. We sat down last night and within seconds of turning in our first order, the plates were on the table! The teriyaki dishes had the right amount of sauce and weren't sickeningly sweet. The chicken, fish, and beef were perfectly cooked. The makirolls were neatly rolled, cut properly and seasoned well. Loved the General Tao chicken, the steamed BBQ pork buns, the eel sushi and the lovely eggplant. We will be going back again! I would highly recommend it. 
-            </summary>
+      <summary>The food is always consistent. A good variety of dim sum, sushi, Chinese and even Vietnamese dishes. The service is quick and the food is plentiful. We sat down last night and within seconds of turning in our first order, the plates were on the table! The teriyaki dishes had the right amount of sauce and weren't sickeningly sweet. The chicken, fish, and beef were perfectly cooked. The makirolls were neatly rolled, cut properly and seasoned well. Loved the General Tao chicken, the steamed BBQ pork buns, the eel sushi and the lovely eggplant. We will be going back again! I would highly recommend it.</summary>
     </review>
     <menu>
       <menuItem>
@@ -210,8 +208,7 @@
     <review>
       <date>2021-01-03</date>
       <reviewer>Peter Jones</reviewer>
-      <summary>
-                My favorite restaurant in Ottawa. The family who owns it are very warm and lovely people. They are incredible at recognizing you when you come back. The burritos are super good. You can customize however you want (guac is included!). I especially love that there is cactus in the veggie mix; it is a small, special thing that sets this place apart from other Mexican spots downtown.
+      <summary>My favorite restaurant in Ottawa. The family who owns it are very warm and lovely people. They are incredible at recognizing you when you come back. The burritos are super good. You can customize however you want (guac is included!). I especially love that there is cactus in the veggie mix; it is a small, special thing that sets this place apart from other Mexican spots downtown.
             </summary>
     </review>
     <menu>
