@@ -1,10 +1,12 @@
-Slide 1
-Good afternoon everyone! We are the white team and today we will give a presentation on Meteor.js. Before we start, I'd like to introduce our team. We have Kevin Diez-Ocampo as our team leader and the rest of the team: Yohanes Hailegiorgis, Jordan Meade, Otavio Anacleto Pereira Barbosa, and me Diana Jean Caballero. Tuquib. Let's begin!
+--------------- Slide 1: Meteor
+Good afternoon everyone! Just want to make sure you can hear me. Can you give me a thumbs up if you can hear me? We are the white team and today we will give a presentation on Meteor.js. Before we start, I'd like to introduce our team. We have Kevin Diez-Ocampo as our team leader and the rest of the team: Yohanes Hailegiorgis, Jordan Meade, Otavio Anacleto Pereira Barbosa, and me Diana Jean Caballero Tuquib. Let's begin!
 
-Slide 2
+
+--------------- Slide 2: Meteor.js
 My team's objective for today is to help you understand what Meteor.js is, its components, and the framework. We will also discuss a bit about data synchronization, user account management, built-in testing, and advantages. All exciting stuff! For our demo, we will show you a tic-tac-toe game that our team, well mostly Kevin, built using Meteor.
 
-Slide 3
+
+--------------- Slide 3: Introduction
 Meteor.js is a comprehensive JavaScript framework that brings together a cohesive set of libraries and packages. It allows us to quickly build prototype applications and software.
 
 As you may already know, there are many JavaScript frameworks available. However, what sets Meteor apart from other frameworks, like Angular, is its ability to run on the front- and back-end. This makes Meteor very suitable for developing web and mobile applications.
@@ -12,5 +14,68 @@ As you may already know, there are many JavaScript frameworks available. However
 Another key feature of the Meteor framework is that it uses subscriptions instead of the traditional request-response model, which is commonly used in other JavaScript frameworks like Angular, React, etc.
 In Meteor, the clients subscribe to events on the server using a connection, so the server continuously sends updates. My teammates will elaborate more on that later, but what this means basically is that as soon as there are new changes on the server, the client immediately receives the updates.
 
-Slide 4
-Before my groupmates elaborate more on Meteor, let me just highlight the importance of client-side frameworks.
+
+--------------- Slide 4: Importance of Client-side Frameworks
+Client-side frameworks play a crucial role in web development. Before my groupmates elaborate more on Meteor, let me just highlight a few of the importance of client-side frameworks.
+
+Client-side frameworks allow developers to create engaging user interfaces. Its packages, tools, and functionalities give us the ability to easily create apps that have smooth interactions and responsive designs.
+
+Next, it allows for more efficient app performance. Because the app is rendered on the client side, the page reloads are going to be minimal. We are able to store data and files in a cache or temporary location in the local storage so that they can be accessed more quickly. Because of this, it reduces server load and network latency so there's better responsiveness and it contributes to a better user experience.
+
+Client-side frameworks also provide reusable UI elements and allows us to break down complex applications into smaller chunks. This makes it easier for us to debug because there is a separation of concern. The use of reusable components can also be integerated into the different parts of the application.
+
+My teammates will now discuss more on Meteor, so Jordan please take it away.
+
+
+
+
+
+
+SUMMARY
+----- full stack JS framework
+Meteor is a comprehensive, open-source, full-stack JavaScript framework that allows us to create web and mobile applications. It runs on both client- and server-side so we can use a single codebase to run the application smoothly.
+
+Components
+----- Client-side: Blaze and React
+On the client-side, meteor supports Blaze and React, so we are able to build smooth and responsive designs.
+
+----- Server-side: Node.js and MongoDB
+On the server-side, meteor is built on top of Node.js, so it allows us to write server-side code using JavaScript. It also has a MongoDB integration which allows us to handle database operations.
+
+In short, because Meteor IS full-stack, this allows the app to provide real-time updates because the server- and client-sides are synchronized. 
+
+----- Data Synchronization
+In addition, as mentioned by Kevin earlier, we can call the functions both in the front- and back-end.
+
+----- Account Management
+Meteor also offers built-in packages and features, and this allows us to easily and securely implement user authentication and access control.
+
+----- Built-in Testing
+Meteor provides built-in testing capabilities to help us write and run tests. It is designed to support testing frameworks, such as Jasmine, Cucumber, and as mentioned earlier by Otavio, Mocha. Because of this, we are able to ensure the quality and reliability of our applications.
+
+
+----- Possible Future developments
+What does the future of Meteor look like?
+There is a huge community behind MeteorJS and from what I can see in their forums and discussions, there's a lot of feature requests.
+
+A few of those requests include the integration of CapacitorJS, which another tool for building cross-platform mobile apps using web technologies.
+
+There's also a request for better file upload support via Distributed Data Protocol, also known as DDP. DDP is a protocol that Meteor uses to communicate between the client and the server.
+
+There are also calls to improve the Passwordless package, a passwordless authentication functionality. This allows users to login without using the traditional username/password credentials.
+
+
+That concludes our crash course to Meteor. I will now give the floor back to Kevin to guide us with the demo.
+
+
+
+
+
+
+
+
+
+
+
+
+

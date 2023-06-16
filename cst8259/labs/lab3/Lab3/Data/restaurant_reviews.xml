@@ -21,7 +21,7 @@
         <areaCode>416</areaCode>
         <number>123-4567</number>
       </phone>
-      <rating min="1" max="5">4</rating>
+      <rating min="1" max="5">5</rating>
       <cuisine>Italian</cuisine>
       <priceRange min="1" max="4">4</priceRange>
     </generalInfo>
@@ -90,7 +90,7 @@
   </restaurant>
   <restaurant>
     <generalInfo>
-      <name>Gong's Asian Cuisine</name>
+      <name>Matthew Soosaipillai</name>
       <website>www.asiancuisine.com</website>
       <logo source="www.asiancuisine.com/resouce/images/cuisine.jpg">
         <altText>gong's cuisine</altText>
@@ -100,23 +100,23 @@
         </dimensions>
       </logo>
       <address>
-        <street>1385 Woodroffe Avenue</street>
-        <city>Ottawa</city>
-        <state>ON</state>
-        <postalCode>K2G 1V8</postalCode>
+        <street>2000 Woodroffe Avenue</street>
+        <city>Montreal</city>
+        <state>Québec</state>
+        <postalCode>H9K 1S4</postalCode>
       </address>
       <phone>
         <areaCode>613</areaCode>
         <number>727-4723</number>
       </phone>
-      <rating min="1" max="5">5</rating>
+      <rating min="1" max="5">4</rating>
       <cuisine>Asian</cuisine>
       <priceRange min="1" max="4">1</priceRange>
     </generalInfo>
     <review>
       <date>2020-12-03</date>
       <reviewer>Brenda P. Smith</reviewer>
-      <summary>The food is always consistent. A good variety of dim sum, sushi, Chinese and even Vietnamese dishes. The service is quick and the food is plentiful. We sat down last night and within seconds of turning in our first order, the plates were on the table! The teriyaki dishes had the right amount of sauce and weren't sickeningly sweet. The chicken, fish, and beef were perfectly cooked. The makirolls were neatly rolled, cut properly and seasoned well. Loved the General Tao chicken, the steamed BBQ pork buns, the eel sushi and the lovely eggplant. We will be going back again! I would highly recommend it.</summary>
+      <summary>Diana:  The food is always consistent. A good variety of dim sum, sushi, Chinese and even Vietnamese dishes. The service is quick and the food is plentiful. We sat down last night and within seconds of turning in our first order, the plates were on the table! The teriyaki dishes had the right amount of sauce and weren't sickeningly sweet. The chicken, fish, and beef were perfectly cooked. The makirolls were neatly rolled, cut properly and seasoned well. Loved the General Tao chicken, the steamed BBQ pork buns, the eel sushi and the lovely eggplant. We will be going back again! I would highly recommend it.</summary>
     </review>
     <menu>
       <menuItem>
@@ -201,7 +201,7 @@
         <areaCode>613</areaCode>
         <number>333-4444</number>
       </phone>
-      <rating min="1" max="5">3</rating>
+      <rating min="1" max="5">1</rating>
       <cuisine>Mexican</cuisine>
       <priceRange min="1" max="4">2</priceRange>
     </generalInfo>
