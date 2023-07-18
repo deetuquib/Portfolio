@@ -51,7 +51,10 @@ namespace Lab3.Controllers
             return View(restaurantList);
         }
 
-        [HttpGet]
+        // when a request is made to a URL mapped to a controller action method decorated with [HttpGet], the method is invoked to handle the request
+        // The action method can perform any necessary logic and return various types of responses, not just views
+        // View method is called to return a view to the clien
+        [HttpGet] // decorated action method to be invoked when a GET request is made to the corresponding URL
         public IActionResult Edit(int? id)
         {
             string xmlFilePath = Path.GetFullPath("Data/restaurant_reviews.xml");
@@ -76,7 +79,8 @@ namespace Lab3.Controllers
             return View(re);
         }
 
-        [HttpPost]
+        // allows you to handle form submissions, API requests, and other POST-based actions in your application
+        [HttpPost] // decorated action method that specifies that the action method should respond to HTTP POST requests
         public IActionResult Edit(RestaurantEditViewModel model)
         {
             string xmlFilePath = Path.GetFullPath("Data/restaurant_reviews.xml");
