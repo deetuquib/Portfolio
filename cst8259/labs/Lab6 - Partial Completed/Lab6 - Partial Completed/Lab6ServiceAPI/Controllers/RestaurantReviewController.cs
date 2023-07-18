@@ -18,15 +18,37 @@ namespace Lab6ServiceAPI.Controllers
         public List<RestaurantInfo> Get()
         {
 
-            throw new NotImplementedException("Replace this line with your code");
+            //throw new NotImplementedException("Replace this line with your code");
+            restaurant_reviews reviews = GetRestaurantReviewsFromXml();
+            List<RestaurantInfo> restInfos = new List<RestaurantInfo>();
+            int id = 0;
+            foreach (restaurant_reviewsRestaurant rest in reviews.restaurant)
+            {
+                RestaurantInfo restInfo = GetRestaurantInfo(rest);
+                restInfo.id = id;
+                restInfos.Add(restInfo);
+                id++;
+            }
 
+            return restInfos;
         }
 
         // GET api/<RestaurantReviewController>/5
         [HttpGet("{id}")]
         public RestaurantInfo Get(int id)
         {
-           throw new NotImplementedException("Replace this line with your code");
+            //throw new NotImplementedException("Replace this line with your code");
+            restaurant_reviews reviews = GetRestaurantReviewsFromXml();
+            restaurant_reviewsRestaurant rest = reviews.restaurant.ElementAtOrDefault(id);
+
+            if (rest != null)
+            {
+                RestaurantInfo restInfo = GetRestaurantInfo(rest);
+                restInfo.id = id;
+                return restInfo;
+            }
+
+            return null; // or return appropriate response for not found
         }
 
         [Route("[action]")]
