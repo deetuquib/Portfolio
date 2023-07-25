@@ -4,8 +4,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\WebServices\RestaurantReviewServiceAPI</_PublishTargetUrl>
-    <History>False|2023-07-25T21:23:17.6823686Z;False|2023-07-24T20:52:44.4054499-04:00;False|2023-07-24T20:48:00.5760763-04:00;False|2023-07-24T20:46:42.1289962-04:00;False|2023-07-24T20:45:29.5888862-04:00;True|2023-03-03T09:55:38.1443924-05:00;True|2023-02-28T12:54:24.0097898-05:00;</History>
+    <History>False|2023-07-25T22:03:35.5117733Z;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
