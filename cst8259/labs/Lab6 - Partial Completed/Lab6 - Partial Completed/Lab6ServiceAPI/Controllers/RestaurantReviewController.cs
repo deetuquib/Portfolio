@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 using Lab6ServiceAPI.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
+//DIANA
 namespace Lab6ServiceAPI.Controllers
 {
     [EnableCors]
@@ -38,50 +38,97 @@ namespace Lab6ServiceAPI.Controllers
         public RestaurantInfo Get(int id)
         {
             //throw new NotImplementedException("Replace this line with your code");
+            //restaurant_reviews reviews = GetRestaurantReviewsFromXml();
+            //restaurant_reviewsRestaurant rest = reviews.restaurant.ElementAtOrDefault(id);
+
+            //if (rest != null)
+            //{
+            //    RestaurantInfo restInfo = GetRestaurantInfo(rest);
+            //    restInfo.id = id;
+            //   return restInfo;
+            //}
+
+            //            return null; // or return appropriate response for not found
             restaurant_reviews reviews = GetRestaurantReviewsFromXml();
-            restaurant_reviewsRestaurant rest = reviews.restaurant.ElementAtOrDefault(id);
-
-            if (rest != null)
+            if (id < 0 || id >= reviews.restaurant.Length)
             {
-                RestaurantInfo restInfo = GetRestaurantInfo(rest);
-                restInfo.id = id;
-                return restInfo;
+                throw new Exception("Invalid restaurant id");
             }
-
-            return null; // or return appropriate response for not found
+            RestaurantInfo restInfo = GetRestaurantInfo(reviews.restaurant[id]);
+            restInfo.id = id;
+            return restInfo;
         }
 
         [Route("[action]")]
         [HttpGet]
         public List<string> GetRestaurantNames()
         {
-            throw new NotImplementedException("Replace this line with your code");
-
+            //throw new NotImplementedException("Replace this line with your code");
+            restaurant_reviews reviews = GetRestaurantReviewsFromXml();
+            List<string> restNames = new List<string>();
+            foreach (restaurant_reviewsRestaurant rest in reviews.restaurant)
+            {
+                restNames.Add(rest.name);
+            }
+            return restNames;
         }
 
         // POST <RestaurantReviewController>
         [HttpPost]
-        public void Post([FromBody] RestaurantInfo restInfo)
+        public IActionResult Post([FromBody] RestaurantInfo restInfo)
         {
-
-
-            throw new NotImplementedException("Replace this line with your code");
-
+            //throw new NotImplementedException("Replace this line with your code");
+            try
+            {
+                restaurant_reviews reviews = GetRestaurantReviewsFromXml();
+                List<restaurant_reviewsRestaurant> restList = new List<restaurant_reviewsRestaurant>();
+                if (reviews.restaurant != null)
+                {
+                    restList = reviews.restaurant.ToList();
+                }
+                restaurant_reviewsRestaurant newRestaurant = GetNewRestaurantWithRestaurantInfo(restInfo);
+                restList.Add(newRestaurant);
+                reviews.restaurant = restList.ToArray();
+                SaveRestaurantReviewsToXml(reviews);
+            }
+            catch
+            {
+                return BadRequest();
+            }
+            return Ok("The new restaurant review has been saved!");
         }
 
         // PUT api/<RestaurantReviewController>
         [HttpPut]
         [EnableCors]
-        public void Put([FromBody] RestaurantInfo restInfo)
+        public IActionResult Put([FromBody] RestaurantInfo restInfo)
         {
-           throw new NotImplementedException("Replace this line with your code");
+            //throw new NotImplementedException("Replace this line with your code");
+            restaurant_reviews reviews = GetRestaurantReviewsFromXml();
+            if (restInfo.id < 0 || restInfo.id >= reviews.restaurant.Length || reviews.restaurant == null)
+            {
+                throw new Exception("Invalid restaurant id");
+            }
+            UpdateRestaurantWithRestaurantInfo(reviews.restaurant[restInfo.id], restInfo);
+            SaveRestaurantReviewsToXml(reviews);
+            return Ok("The restaurant review has been updated!");
         }
 
         // DELETE api/<RestaurantReviewController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
-            throw new NotImplementedException("Replace this line with your code");
+            //throw new NotImplementedException("Replace this line with your code");
+            restaurant_reviews reviews = GetRestaurantReviewsFromXml();
+            if (id < 0 || id >= reviews.restaurant.Length || reviews.restaurant == null)
+            {
+                throw new Exception("Invalid restaurant id");
+            }
+            List<restaurant_reviewsRestaurant> restList = reviews.restaurant.ToList();
+            restList.RemoveAt(id);
+            reviews.restaurant = restList.ToArray();
+            SaveRestaurantReviewsToXml(reviews);
+            return Ok("The restaurant review has been deleted!");
         }
 
         private restaurant_reviews GetRestaurantReviewsFromXml()
