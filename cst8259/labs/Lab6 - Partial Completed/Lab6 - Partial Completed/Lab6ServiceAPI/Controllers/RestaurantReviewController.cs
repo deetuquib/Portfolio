@@ -18,7 +18,6 @@ namespace Lab6ServiceAPI.Controllers
         public List<RestaurantInfo> Get()
         {
 
-            //throw new NotImplementedException("Replace this line with your code");
             restaurant_reviews reviews = GetRestaurantReviewsFromXml();
             List<RestaurantInfo> restInfos = new List<RestaurantInfo>();
             int id = 0;
@@ -29,26 +28,15 @@ namespace Lab6ServiceAPI.Controllers
                 restInfos.Add(restInfo);
                 id++;
             }
-
             return restInfos;
+
+
         }
 
         // GET api/<RestaurantReviewController>/5
         [HttpGet("{id}")]
         public RestaurantInfo Get(int id)
         {
-            //throw new NotImplementedException("Replace this line with your code");
-            //restaurant_reviews reviews = GetRestaurantReviewsFromXml();
-            //restaurant_reviewsRestaurant rest = reviews.restaurant.ElementAtOrDefault(id);
-
-            //if (rest != null)
-            //{
-            //    RestaurantInfo restInfo = GetRestaurantInfo(rest);
-            //    restInfo.id = id;
-            //   return restInfo;
-            //}
-
-            //            return null; // or return appropriate response for not found
             restaurant_reviews reviews = GetRestaurantReviewsFromXml();
             if (id < 0 || id >= reviews.restaurant.Length)
             {
@@ -63,7 +51,6 @@ namespace Lab6ServiceAPI.Controllers
         [HttpGet]
         public List<string> GetRestaurantNames()
         {
-            //throw new NotImplementedException("Replace this line with your code");
             restaurant_reviews reviews = GetRestaurantReviewsFromXml();
             List<string> restNames = new List<string>();
             foreach (restaurant_reviewsRestaurant rest in reviews.restaurant)
@@ -77,7 +64,6 @@ namespace Lab6ServiceAPI.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] RestaurantInfo restInfo)
         {
-            //throw new NotImplementedException("Replace this line with your code");
             try
             {
                 restaurant_reviews reviews = GetRestaurantReviewsFromXml();
@@ -98,12 +84,12 @@ namespace Lab6ServiceAPI.Controllers
             return Ok("The new restaurant review has been saved!");
         }
 
+
         // PUT api/<RestaurantReviewController>
         [HttpPut]
         [EnableCors]
         public IActionResult Put([FromBody] RestaurantInfo restInfo)
         {
-            //throw new NotImplementedException("Replace this line with your code");
             restaurant_reviews reviews = GetRestaurantReviewsFromXml();
             if (restInfo.id < 0 || restInfo.id >= reviews.restaurant.Length || reviews.restaurant == null)
             {
@@ -114,11 +100,11 @@ namespace Lab6ServiceAPI.Controllers
             return Ok("The restaurant review has been updated!");
         }
 
+
         // DELETE api/<RestaurantReviewController>/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            //throw new NotImplementedException("Replace this line with your code");
             restaurant_reviews reviews = GetRestaurantReviewsFromXml();
             if (id < 0 || id >= reviews.restaurant.Length || reviews.restaurant == null)
             {
