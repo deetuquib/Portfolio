@@ -13,7 +13,7 @@ import javax.swing.JTextArea;
 import javax.swing.JScrollBar;
 
 public class myApplication {
-	
+
 	private JFrame frame;
 	private JTextField textFieldName;
 	private JLabel lblDisplayBoard;
@@ -27,7 +27,7 @@ public class myApplication {
 	/**
 	 * Launch the application.
 	 */
-	
+
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -38,7 +38,7 @@ public class myApplication {
 					e.printStackTrace();
 				}
 			}
-		});		
+		});
 	}
 
 	/**
@@ -56,68 +56,69 @@ public class myApplication {
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
-		
+
 		textFieldName = new JTextField();
 		textFieldName.setBounds(139, 11, 194, 33);
 		frame.getContentPane().add(textFieldName);
 		textFieldName.setColumns(10);
-		
+
 		JLabel lblName = new JLabel("Enter Username");
 		lblName.setBounds(10, 11, 119, 33);
 		frame.getContentPane().add(lblName);
-		
+
 		JButton btnClickMe = new JButton("Click me");
 		btnClickMe.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				
+
 				String userName = textFieldName.getText();
 				String password = textFieldID.getText();
 				textFieldName.setText("");
 				textFieldID.setText("");
-				
-				//An object of AESTest is created here
+
+				// An object of AESTest is created here
 				AES aet = new AES();
-				
-				
-				try{
+
+				try {
 					byte[] plainText = userName.getBytes();
 					byte[] cipherText = aet.encrypt(plainText);
 					byte[] decryptedCipherText = aet.decrypt(cipherText);
-				
-					String displayDtring = "Username '"+userName+"' is encrypted to: "+new String(cipherText)+"\nThe decrypted Username: "+new String(decryptedCipherText);
+
+					String displayDtring = "Username '" + userName + "' is encrypted to: " + new String(cipherText)
+							+ "\nThe decrypted Username: " + new String(decryptedCipherText);
 					textDisplayArea.setText(displayDtring);
-					
+
 					plainText = password.getBytes();
 					cipherText = aet.encrypt(plainText);
 					decryptedCipherText = aet.decrypt(cipherText);
-					
-					displayDtring = displayDtring +"\n\n"+ "Password '"+password+"' is encrypted to: "+new String(cipherText)+"\nThe decrypted Password: "+new String(decryptedCipherText);
+
+					displayDtring = displayDtring + "\n\n" + "Password '" + password + "' is encrypted to: "
+							+ new String(cipherText) + "\nThe decrypted Password: " + new String(decryptedCipherText);
 					textDisplayArea.setText(displayDtring);
-				
-				}catch(Exception e){
+
+				} catch (Exception e) {
 					System.out.println("Error message !");
 				}
-				
+
 			}
 		});
 		btnClickMe.setBounds(145, 227, 89, 23);
 		frame.getContentPane().add(btnClickMe);
-		
+
 		lblDisplayBoard = new JLabel("Eencrypted and decrypted message");
 		lblDisplayBoard.setForeground(Color.RED);
 		lblDisplayBoard.setFont(new Font("Tahoma", Font.BOLD, 12));
 		lblDisplayBoard.setBounds(10, 94, 279, 23);
 		frame.getContentPane().add(lblDisplayBoard);
-		
+
 		lblID = new JLabel("Enter Password");
 		lblID.setBounds(10, 55, 119, 28);
 		frame.getContentPane().add(lblID);
-		
+
 		textFieldID = new JTextField();
 		textFieldID.setBounds(139, 55, 194, 28);
 		frame.getContentPane().add(textFieldID);
 		textFieldID.setColumns(10);
-			
+
 		JButton btnCancel = new JButton("Cancel");
 		btnCancel.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -126,7 +127,7 @@ public class myApplication {
 		});
 		btnCancel.setBounds(244, 227, 89, 23);
 		frame.getContentPane().add(btnCancel);
-		
+
 		textDisplayArea = new JTextArea();
 		textDisplayArea.setForeground(Color.BLUE);
 		textDisplayArea.setFont(new Font("Monospaced", Font.PLAIN, 14));
@@ -134,7 +135,7 @@ public class myApplication {
 		textDisplayArea.setBackground(Color.WHITE);
 		textDisplayArea.setBounds(10, 116, 414, 100);
 		frame.getContentPane().add(textDisplayArea);
-		
+
 		scrollBar = new JScrollBar();
 		scrollBar.setBounds(216, 152, 17, 48);
 		frame.getContentPane().add(scrollBar);

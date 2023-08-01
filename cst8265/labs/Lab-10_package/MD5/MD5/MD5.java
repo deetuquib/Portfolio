@@ -11,7 +11,7 @@ public class MD5 {
 	public static void main(String[] args) throws Exception {
 		MessageDigest md = MessageDigest.getInstance("MD5");
 		FileInputStream fis = new FileInputStream(
-				"\"C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8265\\labs\\Lab-10_package\\MD5\\MD5\\test\\myTextFile-1.txt\"");
+				"C:/Users/deetu/My Files/Github Repositories/Portfolio/cst8265/labs/Lab-10_package/MD5/MD5/new_test.zip");
 		byte[] dataBytes = new byte[1024];
 		int nread = fis.read(dataBytes);
 		md.update(dataBytes, 0, nread);
