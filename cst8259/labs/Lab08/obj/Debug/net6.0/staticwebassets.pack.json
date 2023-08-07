@@ -5,8 +5,24 @@
       "PackagePath": "staticwebassets\\Lab08.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\Scripts\\Address.jsx",
+      "PackagePath": "staticwebassets\\Scripts\\Address.jsx"
+    },
+    {
+      "Id": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\Scripts\\Config.js",
+      "PackagePath": "staticwebassets\\Scripts\\Config.js"
+    },
+    {
       "Id": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\Scripts\\Lab8.jsx",
       "PackagePath": "staticwebassets\\Scripts\\Lab8.jsx"
+    },
+    {
+      "Id": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\Scripts\\RestaurantReview.jsx",
+      "PackagePath": "staticwebassets\\Scripts\\RestaurantReview.jsx"
+    },
+    {
+      "Id": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\Scripts\\Review.jsx",
+      "PackagePath": "staticwebassets\\Scripts\\Review.jsx"
     },
     {
       "Id": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\css\\site.css",

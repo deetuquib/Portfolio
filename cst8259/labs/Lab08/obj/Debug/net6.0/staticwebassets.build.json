@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I9Epsaxi1FKRdsjasc21bSyyexDiPEvXAPqdeDUcfJY=",
+  "Hash": "qiq47q+xl+gyD71qw0ENyfOk73quTDJ7SEIsrFgJEkM=",
   "Source": "Lab08",
   "BasePath": "_content/Lab08",
   "Mode": "Default",
@@ -1071,6 +1071,40 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\Scripts\\Address.jsx",
+      "SourceId": "Lab08",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\",
+      "BasePath": "_content/Lab08",
+      "RelativePath": "Scripts/Address.jsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\Address.jsx"
+    },
+    {
+      "Identity": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\Scripts\\Config.js",
+      "SourceId": "Lab08",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\",
+      "BasePath": "_content/Lab08",
+      "RelativePath": "Scripts/Config.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\Config.js"
+    },
+    {
       "Identity": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\Scripts\\Lab8.jsx",
       "SourceId": "Lab08",
       "SourceType": "Discovered",
@@ -1086,6 +1120,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Scripts\\Lab8.jsx"
+    },
+    {
+      "Identity": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\Scripts\\RestaurantReview.jsx",
+      "SourceId": "Lab08",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\",
+      "BasePath": "_content/Lab08",
+      "RelativePath": "Scripts/RestaurantReview.jsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\RestaurantReview.jsx"
+    },
+    {
+      "Identity": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\Scripts\\Review.jsx",
+      "SourceId": "Lab08",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\",
+      "BasePath": "_content/Lab08",
+      "RelativePath": "Scripts/Review.jsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\Review.jsx"
     }
   ]
 }
