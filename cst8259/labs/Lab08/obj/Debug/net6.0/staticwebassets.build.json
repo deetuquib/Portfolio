@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qiq47q+xl+gyD71qw0ENyfOk73quTDJ7SEIsrFgJEkM=",
+  "Hash": "8Z1kVI6KGQkysHwOpwlZf9D8HH34Ts5J3+JMvPs2fcA=",
   "Source": "Lab08",
   "BasePath": "_content/Lab08",
   "Mode": "Default",
@@ -1139,12 +1139,12 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\RestaurantReview.jsx"
     },
     {
-      "Identity": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\Scripts\\Review.jsx",
+      "Identity": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\Scripts\\Reviews.jsx",
       "SourceId": "Lab08",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\deetu\\My Files\\Github Repositories\\Portfolio\\cst8259\\labs\\Lab08\\wwwroot\\",
       "BasePath": "_content/Lab08",
-      "RelativePath": "Scripts/Review.jsx",
+      "RelativePath": "Scripts/Reviews.jsx",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1153,7 +1153,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Scripts\\Review.jsx"
+      "OriginalItemSpec": "wwwroot\\Scripts\\Reviews.jsx"
     }
   ]
 }
